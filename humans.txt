@@ -1,0 +1,21 @@
+/* TEAM */
+	Development:Toby Osbourn
+	Contact: toby.osbourn@gmail.com
+	Twitter: @tosbourn
+	From:Belfast, Northern Ireland, United Kingdom
+
+/* THANKS */
+
+	The idea came from a talk by: Ethan Marcotte
+	Twitter: @beep
+	From: Boston, Massachusetts, USA
+
+/* SITE */
+	Last update:2012/11/16
+	Language:English
+	Doctype:HTML5
+	IDE: Sublime Text 2, FileZilla, Git
+
+/* MORE @/
+
+	https://github.com/tosbourn/howoldistheinternet
