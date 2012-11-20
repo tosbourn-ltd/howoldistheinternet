@@ -45,12 +45,18 @@
 				margin: 10% auto;
 				text-align: center;
 				font-size: 300%;
+				display: block;
 			}
 
 			.madeby {
 				margin-top: 2.5%;
 			}
 		</style>
+		<!--[if IE]>
+			<script type="text/javascript">
+				document.createElement('footer');
+			</script>
+		<![endif]-->
 	</head>
 
 	<body>
