@@ -1,7 +1,9 @@
 <?php
-	$now        = time();
-    $start_date = strtotime("1991-08-06");
-    $days       = floor(($now - $start_date)/(60*60*24));
+	$now                 = time();
+    $start_date_web      = strtotime("1991-08-06");
+    $start_date_internet = strtotime("1969-09-02");
+    $web_days            = floor(($now - $start_date_web)/(60*60*24));
+    $internet_days       = floor(($now - $start_date_internet)/(60*60*24));
 ?>
 <!doctype html>
 <!--
@@ -24,6 +26,8 @@
 			small {
 				display: block;
 				color: #ddd;
+				margin-top: 1%;
+				font-size: 50%;
 			}
 
 			a, a:visited, a:active {
@@ -42,19 +46,30 @@
 				text-align: center;
 				font-size: 300%;
 			}
+
+			.madeby {
+				margin-top: 2.5%;
+			}
 		</style>
 	</head>
 
 	<body>
 		<p>
-			The Internet is <?=$days; ?> days Old.<sup>*</sup>
+			The Internet is <?=$web_days; ?> days Old.<sup>*</sup>
 		</p>
 		<p>
 			What have you done today to make it better?
 		</p>
 		<footer>
-			<small><sup>*</sup>Assuming by Internet we mean the Internet as we know it today (<a href="http://en.wikipedia.org/wiki/History_of_the_World_Wide_Web">the World Wide Web</a>)</small>
-			<small>Made by <a href="https://www.twitter.com/tosbourn" rel="author">Toby</a>.</small>
+			<small>
+				<sup>*</sup>Assuming by Internet we mean the Internet as we know it today (<a href="http://en.wikipedia.org/wiki/History_of_the_World_Wide_Web">the World Wide Web</a>).
+			</small>
+			<small>
+				If you want the number of days from the time the internet technology was made it is <a href="http://news.nationalgeographic.co.uk/news/2009/08/090831-internet-40th-video-ap.html"><?=$internet_days;?></a>.
+			</small>
+			<small class="madeby">
+				Made by <a href="https://www.twitter.com/tosbourn" rel="author">Toby</a>.
+			</small>
 		</footer>
 	</body>
 </html>
