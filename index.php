@@ -48,15 +48,12 @@
 				display: block;
 			}
 
-			.madeby {
+      .madeby,
+      iframe{
 				margin-top: 2.5%;
-			}
+      }
+
 		</style>
-		<!--[if IE]>
-			<script type="text/javascript">
-				document.createElement('footer');
-			</script>
-		<![endif]-->
 	</head>
 
 	<body>
