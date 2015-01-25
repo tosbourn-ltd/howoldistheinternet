@@ -1,5 +1,5 @@
 <?php
-	$now                 = time();
+    $now                 = time();
     $start_date_web      = strtotime("1991-08-06");
     $start_date_internet = strtotime("1969-09-02");
     $web_days            = floor(($now - $start_date_web)/(60*60*24));
@@ -76,6 +76,17 @@
 			<small class="madeby">
 				Made by <a href="https://www.twitter.com/tosbourn" rel="author">Toby</a>.
 			</small>
+      <iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=tosbourn-21&o=2&p=26&l=ez&f=ifr&f=ifr" width="468" height="60" scrolling="no" marginwidth="0" marginheight="0" border="0" frameborder="0" style="border:none;"></iframe>
 		</footer>
 	</body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-43108784-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 </html>
