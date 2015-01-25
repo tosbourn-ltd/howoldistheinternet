@@ -23,6 +23,9 @@
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 		<link type="text/plain" rel="author" href="/humans.txt" />
 		<style type="text/css" media="all">
+      body {
+        font-family: helvetica neue, sans-serif;
+      }
 			small {
 				display: block;
 				color: #ddd;
@@ -42,7 +45,7 @@
 
 			p, footer {
 				width: 95%;
-				margin: 10% auto;
+				margin: 5% auto;
 				text-align: center;
 				font-size: 300%;
 				display: block;
@@ -53,16 +56,61 @@
 				margin-top: 2.5%;
       }
 
+      .social {
+        padding: 1%;
+        display: inline-block;
+        margin: 1.5%;
+        text-decoration: none;
+      }
+
+      a.social:visited {
+        color: #FFF;
+      }
+
+      a.twitter:visited {
+        color: #2D6491;
+      }
+
+      .socialshares {
+        text-align: center;
+      }
+
+      .facebook {
+        background-color: #3C5A98;
+        color: #FFF;
+      }
+
+      .twitter {
+        background-color: #DBF7F8;
+        color: #2D6491;
+      }
+
+      .google {
+        background-color: #D14836;
+        color: #FFF;
+      }
+
+      .linkedin {
+        background-color: #185C80;
+        color: #FFF;
+      }
+
 		</style>
 	</head>
 
 	<body>
 		<p>
-			The Internet is <?=$web_days; ?> days Old.<sup>*</sup>
+			The Internet is <?=$web_days; ?> days old.<sup>*</sup>
 		</p>
 		<p>
 			What have you done today to make it better?
 		</p>
+    <section class="socialshares">
+      <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhowoldistheinter.net">Facebook</a>
+      <a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=The+internet+is+<?=$web_days;?>+days+old&amp;url=http%3A%2F%2Fhowoldistheinter.net">Twitter</a>
+      <a class="social google" target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Fhowoldistheinter.net">G+</a>
+      <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhowoldistheinter.net&amp;title=The+internet+is+<?=$web_days?>+days+old&amp;summary=The+internet+is+<?=$web_days?>+days+old&amp;source=http%3A%2F%2Fhowoldistheinter.net">LinkedIn</a>
+    </section>
 		<footer>
 			<small>
 				<sup>*</sup>Assuming by Internet we mean the Internet as we know it today (<a href="http://en.wikipedia.org/wiki/History_of_the_World_Wide_Web">the World Wide Web</a>).
