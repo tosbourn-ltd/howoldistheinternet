@@ -1,6 +1,6 @@
 <?php
     $now                 = time();
-    $start_date_web      = strtotime("1991-08-06");
+    $start_date_web      = strtotime("1989-03-12");
     $start_date_internet = strtotime("1969-09-02");
     $web_days            = floor(($now - $start_date_web)/(60*60*24));
     $internet_days       = floor(($now - $start_date_internet)/(60*60*24));
