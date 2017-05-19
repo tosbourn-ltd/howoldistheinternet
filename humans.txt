@@ -1,7 +1,7 @@
 /* TEAM */
-	Development:Toby Osbourn
+	Development:Toby Osbourn, Elaine Osbourn
 	Contact: toby.osbourn@gmail.com
-	Twitter: @tosbourn
+	Twitter: @tosbourn, @kittylainey
 	From:Belfast, Northern Ireland, United Kingdom
 
 /* THANKS */
@@ -15,7 +15,7 @@
 
 
 /* SITE */
-	Last update:2012/12/04
+	Last update:2017/19/05
 	Language:English
 	Doctype:HTML5
 	IDE: Sublime Text 2, FileZilla, Git

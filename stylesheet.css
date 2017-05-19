@@ -1,0 +1,71 @@
+body {
+  font-family: helvetica neue, sans-serif;
+}
+small {
+  display: block;
+  color: #ddd;
+  margin-top: 1%;
+  font-size: 50%;
+}
+
+a, a:visited, a:active {
+  color: #ccc;
+  transition-property: color;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+  color: #000;
+}
+
+p, footer {
+  width: 95%;
+  margin: 5% auto;
+  text-align: center;
+  font-size: 300%;
+  display: block;
+}
+
+.madeby,
+iframe{
+  margin-top: 2.5%;
+}
+
+.social {
+  padding: 1%;
+  display: inline-block;
+  margin: 1.5%;
+  text-decoration: none;
+}
+
+a.social:visited {
+  color: #FFF;
+}
+
+a.twitter:visited {
+  color: #2D6491;
+}
+
+.socialshares {
+  text-align: center;
+}
+
+.facebook {
+  background-color: #3C5A98;
+  color: #FFF;
+}
+
+.twitter {
+  background-color: #DBF7F8;
+  color: #2D6491;
+}
+
+.google {
+  background-color: #D14836;
+  color: #FFF;
+}
+
+.linkedin {
+  background-color: #185C80;
+  color: #FFF;
+}
