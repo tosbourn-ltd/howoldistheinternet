@@ -18,84 +18,18 @@
 -->
 <html>
 	<head>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9894612888906674",
+    enable_page_level_ads: true
+    });
+    </script>
 		<meta charset="utf-8">
 		<title>The Age of the Internet</title>
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 		<link type="text/plain" rel="author" href="/humans.txt" />
-		<style type="text/css" media="all">
-      body {
-        font-family: helvetica neue, sans-serif;
-      }
-			small {
-				display: block;
-				color: #ddd;
-				margin-top: 1%;
-				font-size: 50%;
-			}
-
-			a, a:visited, a:active {
-				color: #ccc;
-				transition-property: color;
-  				transition-duration: 0.5s;
-			}
-
-			a:hover {
-				color: #000;
-			}
-
-			p, footer {
-				width: 95%;
-				margin: 5% auto;
-				text-align: center;
-				font-size: 300%;
-				display: block;
-			}
-
-      .madeby,
-      iframe{
-				margin-top: 2.5%;
-      }
-
-      .social {
-        padding: 1%;
-        display: inline-block;
-        margin: 1.5%;
-        text-decoration: none;
-      }
-
-      a.social:visited {
-        color: #FFF;
-      }
-
-      a.twitter:visited {
-        color: #2D6491;
-      }
-
-      .socialshares {
-        text-align: center;
-      }
-
-      .facebook {
-        background-color: #3C5A98;
-        color: #FFF;
-      }
-
-      .twitter {
-        background-color: #DBF7F8;
-        color: #2D6491;
-      }
-
-      .google {
-        background-color: #D14836;
-        color: #FFF;
-      }
-
-      .linkedin {
-        background-color: #185C80;
-        color: #FFF;
-      }
-
-		</style>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	</head>
 
 	<body>
@@ -119,7 +53,7 @@
 				If you want the number of days from the time the internet technology was made it is <a href="http://news.nationalgeographic.co.uk/news/2009/08/090831-internet-40th-video-ap.html"><?=$internet_days;?></a>.
 			</small>
 			<small class="madeby">
-				Made by <a href="https://www.twitter.com/tosbourn" rel="author">Toby</a>.
+				Made by <a href="https://www.tosbourn.com/" rel="author">Toby</a>.
 			</small>
       <iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=tosbourn-21&o=2&p=26&l=ez&f=ifr&f=ifr" width="468" height="60" scrolling="no" marginwidth="0" marginheight="0" border="0" frameborder="0" style="border:none;"></iframe>
 		</footer>
