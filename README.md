@@ -1,22 +1,26 @@
 # How Old is the Internet
 
-A [site](https://www.howoldistheinter.net) to let you know how old the internet is.
+A [site](https://www.howoldistheinter.net/) to let you know how old the internet is.
 
-## TEAM
+## Team
 Development: [Toby Osbourn](https://www.tosbourn.com/), Elaine Osbourn
+
 Contact: toby.osbourn@gmail.com
+
 Twitter: [@tosbourn](https://twitter.com/tosbourn), [@kittylainey](https://twitter.com/kittylainey)
 
-## THANKS
-The idea came from a talk by: Ethan Marcotte
-Twitter: [@beep](https://twitter.com/beep)
-From: Boston, Massachusetts, USA
+## Thanks
 
-The Favicon has been made by Michael Huang
-Github: [fernozzle](https://github.com/fernozzle)
+The idea came from a talk by [Ethan Marcotte](https://twitter.com/beep). From: Boston, Massachusetts, USA
 
-## SITE
-Last update:2017/19/05
-Language:English
-Doctype:HTML5
+The Favicon has been made by [Michael Huang](https://github.com/fernozzle).
+
+## Site
+
+Last update: 2017/19/05
+
+Language: English
+
+Doctype: HTML5
+
 IDE: Sublime Text 2, FileZilla, Git
