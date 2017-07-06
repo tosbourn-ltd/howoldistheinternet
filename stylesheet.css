@@ -60,11 +60,6 @@ a.twitter:visited {
   color: #2D6491;
 }
 
-.google {
-  background-color: #D14836;
-  color: #FFF;
-}
-
 .linkedin {
   background-color: #185C80;
   color: #FFF;
@@ -79,7 +74,7 @@ a.twitter:visited {
 
 body {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #673ab7; 
+  background: #673ab7;
   color: #fff;
   overflow-x: hidden;
   padding-bottom: 50px;

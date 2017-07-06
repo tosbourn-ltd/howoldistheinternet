@@ -24,6 +24,10 @@
 -->
 <html>
 	<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link type="text/plain" rel="author" href="/humans.txt" />
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -31,11 +35,7 @@
     enable_page_level_ads: true
     });
     </script>
-		<meta charset="utf-8">
 		<title>The Age of the Internet</title>
-		<link rel="icon" type="image/x-icon" href="/favicon.ico">
-		<link type="text/plain" rel="author" href="/humans.txt" />
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	</head>
 
 	<body>
