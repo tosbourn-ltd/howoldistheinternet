@@ -48,7 +48,6 @@
     <section class="socialshares">
       <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhowoldistheinter.net">Facebook</a>
       <a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=The+internet+is+<?=$web_days;?>+days+old&amp;url=http%3A%2F%2Fhowoldistheinter.net">Twitter</a>
-      <a class="social google" target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Fhowoldistheinter.net">G+</a>
       <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhowoldistheinter.net&amp;title=The+internet+is+<?=$web_days?>+days+old&amp;summary=The+internet+is+<?=$web_days?>+days+old&amp;source=http%3A%2F%2Fhowoldistheinter.net">LinkedIn</a>
     </section>
 
@@ -160,7 +159,7 @@
         </li>
         <li>
           <div>
-            <time><?php echo date("Y"); ?></time>
+            <time><?= date("Y"); ?></time>
             <h3>NOW</h3>
             Something we left out? Something happened that you think we should include? <a href="https://www.twitter.com/tosbourn">Contact us!</a>
           </div>
@@ -176,9 +175,8 @@
         If you want the number of days from the time the internet technology was made it is <a href="http://news.nationalgeographic.co.uk/news/2009/08/090831-internet-40th-video-ap.html"><?=$internet_days;?></a>.
       </small>
       <small class="madeby">
-        Made by <a href="https://www.tosbourn.com/" rel="author">Toby</a>.
+        Made by <a href="http://tosbourn.com/" rel="author">tosbourn ltd</a>.
       </small>
-      <iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=tosbourn-21&o=2&p=26&l=ez&f=ifr&f=ifr" width="468" height="60" scrolling="no" marginwidth="0" marginheight="0" border="0" frameborder="0" style="border:none;"></iframe>
     </footer>
 
 <script>
