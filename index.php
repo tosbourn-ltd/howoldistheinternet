@@ -36,6 +36,7 @@
     <meta property="og:description" content="Just how many days old is the internet right now?">
     <meta property="og:type" content="website">
     <meta property="fb:app_id" content="1757071657655796">
+    <meta property="locale" content="en_GB">
     <meta property="og:url" content="https://www.howoldistheinter.net" name="twitter:url">
     <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/social.png">
     <meta name="twitter:card" content="summary">
