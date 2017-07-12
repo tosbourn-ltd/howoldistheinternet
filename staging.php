@@ -31,16 +31,6 @@
 		<title>The Age of the Internet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta content="How old is the internet?" property="og:site_name">
-    <meta content="How old is the internet?" property="og:title" name="twitter:title">
-    <meta content="Just how many days old is the internet right now?" property="og:description">
-    <meta content="website" property="og:type">
-    <meta content="http://howoldistheinter.net" property="og:url" name="twitter:url">
-    <meta content="http://howoldistheinter.net/social.png" property="og:image" name="twitter:image">
-    <meta property="article:author" content="https://www.facebook.com/tosbourn">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@tosbourn">
-    <meta name="twitter:creator" content="@tosbourn">
 	</head>
 
 	<body>
