@@ -31,13 +31,13 @@
 		<title>The Age of the Internet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta content="How old is the internet?" property="og:site_name">
-    <meta content="How old is the internet?" property="og:title" name="twitter:title">
-    <meta content="Just how many days old is the internet right now?" property="og:description">
-    <meta content="website" property="og:type">
-    <meta content="http://howoldistheinter.net" property="og:url" name="twitter:url">
-    <meta content="http://howoldistheinter.net/social.png" property="og:image" name="twitter:image">
-    <meta property="article:author" content="https://www.facebook.com/tosbourn">
+    <meta property="og:site_name" content="How old is the internet?">
+    <meta property="og:title" name="twitter:title" content="How old is the internet?">
+    <meta property="og:description" content="Just how many days old is the internet right now?">
+    <meta property="og:type" content="website">
+    <meta property="fb:app_id" content="1757071657655796">
+    <meta property="og:url" content="https://www.howoldistheinter.net" name="twitter:url">
+    <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/social.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@tosbourn">
     <meta name="twitter:creator" content="@tosbourn">
@@ -184,41 +184,58 @@
       </small>
     </footer>
 
-<script>
-(function() {
+    <script>
+    (function() {
 
-  'use strict';
+      'use strict';
 
-  // define variables
-  var items = document.querySelectorAll(".timeline li");
+      // define variables
+      var items = document.querySelectorAll(".timeline li");
 
-  function isElementInViewport(el) {
-    var rect = el.getBoundingClientRect();
-    return (
-      rect.top >= 0 &&
-      rect.left >= 0 &&
-      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-  }
-
-  function callbackFunc() {
-    for (var i = 0; i < items.length; i++) {
-      if (isElementInViewport(items[i])) {
-        items[i].classList.add("in-view");
+      function isElementInViewport(el) {
+        var rect = el.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
       }
-    }
-  }
 
-  // listen for events
-  window.addEventListener("load", callbackFunc);
-  window.addEventListener("resize", callbackFunc);
-  window.addEventListener("scroll", callbackFunc);
+      function callbackFunc() {
+        for (var i = 0; i < items.length; i++) {
+          if (isElementInViewport(items[i])) {
+            items[i].classList.add("in-view");
+          }
+        }
+      }
 
-})();
-</script>
+      // listen for events
+      window.addEventListener("load", callbackFunc);
+      window.addEventListener("resize", callbackFunc);
+      window.addEventListener("scroll", callbackFunc);
 
+    })();
+    </script>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1757071657655796',
+          cookie     : true,
+          xfbml      : true,
+          version    : 'v2.8'
+        });
+        FB.AppEvents.logPageView();
+      };
 
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 	</body>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
