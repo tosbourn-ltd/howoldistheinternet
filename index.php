@@ -60,12 +60,7 @@
     <aside class="ads">
       <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=howoldistheinternet" id="_carbonads_js"></script>
     </aside>
-<!--
-
-    <div class="ad-box">
-      <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=howoldistheinternet" id="_carbonads_js"></script>
-    </div> -->
-
+    
     <section class="intro">
       <div class="container">
         <h1>Internet Timeline &darr;</h1>
