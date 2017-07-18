@@ -1,11 +1,23 @@
 body {
   font-family: helvetica neue, sans-serif;
 }
+
 small {
   display: block;
   color: #ddd;
   margin-top: 1%;
   font-size: 50%;
+}
+
+.ads {
+  margin: 1% auto;
+  text-align: center;
+  font-size: small;
+}
+
+.carbon-img img {
+  margin: 0 auto;
+  display: block;
 }
 
 a, a:visited, a:active {
@@ -20,7 +32,7 @@ a:hover {
 
 p, footer {
   width: 95%;
-  margin: 5% auto;
+  margin: 1% auto;
   text-align: center;
   font-size: 300%;
   display: block;
