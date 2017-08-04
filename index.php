@@ -57,38 +57,38 @@
       <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhowoldistheinter.net&amp;title=The+internet+is+<?=$web_days?>+days+old&amp;summary=The+internet+is+<?=$web_days?>+days+old&amp;source=http%3A%2F%2Fhowoldistheinter.net">LinkedIn</a>
     </section>
 
-  <div>
-    How many days old were you when the internet was launched?
-    <form action="/results.php" method="GET">
+    <h2>How old were you when the internet was launched?</h2>
+    <div >
+      <form action="/results.php" method="GET" class="poop">
+        <span class="dropdown dropdown--emerald dropdown--large">
+        <select name="year" class="dropdown__select dropdown__select--emerald">
+          <option value="">Year</option>
+          <?php for ($year = date('Y'); $year > date('Y')-100; $year--) { ?>
+        	<option value="<?php echo $year; ?>"><?php echo $year; ?></option>
+        	<?php } ?>
+        </select>
+      </span>
       <span class="dropdown dropdown--emerald dropdown--large">
-      <select name="year" class="dropdown__select dropdown__select--emerald">
-        <option value="">Year</option>
-        <?php for ($year = date('Y'); $year > date('Y')-100; $year--) { ?>
-      	<option value="<?php echo $year; ?>"><?php echo $year; ?></option>
-      	<?php } ?>
-      </select>
-    </span>
-    <span class="dropdown dropdown--emerald dropdown--large">
-      <select name="month" class="dropdown__select dropdown__select--emerald">
-      	<option value="">Month</option>
-      	<?php for ($month = 1; $month <= 12; $month++) { ?>
-      	<option value="<?php echo strlen($month)==1 ? '0'.$month : $month; ?>"><?php echo strlen($month)==1 ? '0'.$month : $month; ?></option>
-      	<?php } ?>
-      </select>
-    </span>
-    <span class="dropdown dropdown--emerald dropdown--large">
-      <select name="day" class="dropdown__select dropdown__select--emerald">
-        <option value="">Day</option>
-      	<?php for ($day = 1; $day <= 31; $day++) { ?>
-      	<option value="<?php echo strlen($day)==1 ? '0'.$day : $day; ?>"><?php echo strlen($day)==1 ? '0'.$day : $day; ?></option>
-      	<?php } ?>
-      </select>
-    </span>
-      <input type="submit" value="Submit" class="submit dropdown__select dropdown__select--emerald">
-    </form>
-  </div>
-
-
+        <select name="month" class="dropdown__select dropdown__select--emerald">
+        	<option value="">Month</option>
+        	<?php for ($month = 1; $month <= 12; $month++) { ?>
+        	<option value="<?php echo strlen($month)==1 ? '0'.$month : $month; ?>"><?php echo strlen($month)==1 ? '0'.$month : $month; ?></option>
+        	<?php } ?>
+        </select>
+      </span>
+      <span class="dropdown dropdown--emerald dropdown--large">
+        <select name="day" class="dropdown__select dropdown__select--emerald">
+          <option value="">Day</option>
+        	<?php for ($day = 1; $day <= 31; $day++) { ?>
+        	<option value="<?php echo strlen($day)==1 ? '0'.$day : $day; ?>"><?php echo strlen($day)==1 ? '0'.$day : $day; ?></option>
+        	<?php } ?>
+        </select>
+      </span>
+      <div>
+        <input type="submit" value="Find out!" class="submit">
+      </div>
+      </form>
+    </div>
 
     <aside class="ads">
       <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=howoldistheinternet" id="_carbonads_js"></script>

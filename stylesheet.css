@@ -3,6 +3,10 @@ body {
   text-align: center;
 }
 
+h2 {
+  font-family: helvetica neue, sans-serif;
+}
+
 small {
   display: block;
   color: #ddd;
@@ -253,12 +257,26 @@ time {
 
 /* Dropdown CSS */
 
-.submit {
-  font-size: 1.5em !important;
+.submit, .submit:visited {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0.5em;
+  padding: 0.4em;
+  font-size: 1.5em;
+  background-color: #0097a7;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.submit:hover {
+  cursor: pointer;
 }
 
 .dropdown--large {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .dropdown__select{
@@ -324,7 +342,7 @@ time {
 
   /* Emerald dropdown style */
   .dropdown--emerald::before {
-    background-color: #1aa181; /* arrow box colour */
+    background-color: #008391; /* arrow box colour */
   }
 
   .dropdown--emerald::after {
