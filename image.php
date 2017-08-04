@@ -1,22 +1,15 @@
 <?php
 
-phpinfo();
+$im = imagecreatefrompng('sharing.png');
 
-// Create a 100*30 image
-$im = imagecreatetruecolor(1200, 630);
-
-// White background and blue text
-$bg = imagecolorallocate($im, 0, 151, 167);
 $textcolor = imagecolorallocate($im, 255, 255, 255);
 
-// Write the string at the top left
-// imagestring($im, 5, 530, 315, 'Hello world!', $textcolor);
-
-$text = "Hello";
+$text = "12";
+// points toward the font path 
 putenv('GDFONTPATH=' . realpath('.'));
 $font = "/Keyboard.ttf";
 
-imagettftext($im, 20, 0, 10, 20, $textcolor, $font, $text);
+imagettftext($im, 150, 0, 350, 400, $textcolor, $font, $_GET['text']);
 
 // Output the image
 header('Content-type: image/png');

@@ -52,11 +52,10 @@
 			What have you done today to make it better?
 		</p>
     <section class="socialshares">
-      <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhowoldistheinter.net">Facebook</a>
+      <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhowoldistheinter.net%2Fresults.php">Facebook</a>
       <a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=The+internet+is+<?=$web_days;?>+days+old&amp;url=http%3A%2F%2Fhowoldistheinter.net">Twitter</a>
       <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhowoldistheinter.net&amp;title=The+internet+is+<?=$web_days?>+days+old&amp;summary=The+internet+is+<?=$web_days?>+days+old&amp;source=http%3A%2F%2Fhowoldistheinter.net">LinkedIn</a>
     </section>
-
 
   <form action="/results.php" method="GET">
     <select name="year">
@@ -79,10 +78,6 @@
     </select>
     <input type="submit" value="Submit">
   </form>
-
-
-
-
 
     <aside class="ads">
       <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=howoldistheinternet" id="_carbonads_js"></script>

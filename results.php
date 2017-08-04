@@ -20,12 +20,12 @@ $older_age_difference        = $age_days - $web_days; ?>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta property="og:site_name" content="How old is the internet?">
     <meta property="og:title" name="twitter:title" content="How old is the internet?">
-    <meta property="og:description" content="Just how many days old is the internet right now?">
+    <meta property="og:description" content="This is how old the internet was when I was born!">
     <meta property="og:type" content="website">
     <meta property="fb:app_id" content="1757071657655796">
     <meta property="locale" content="en_GB">
     <meta property="og:url" content="https://www.howoldistheinter.net" name="twitter:url">
-    <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/social.png">
+    <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/image.php">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@tosbourn">
     <meta name="twitter:creator" content="@tosbourn">
@@ -52,8 +52,7 @@ $older_age_difference        = $age_days - $web_days; ?>
 
     <section class="socialshares">
 
-      <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhowoldistheinter.net">Facebook</a>
-
+      <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhowoldistheinter.net%2Fresults.php">Facebook</a>
       <a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=<?=$sharing_result;?>&amp;url=http%3A%2F%2Fhowoldistheinter.net">Twitter</a>
 
       <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhowoldistheinter.net&amp;title=<?=$sharing_result?>&amp;summary=<?=$sharing_result?>&amp;source=http%3A%2F%2Fhowoldistheinter.net">LinkedIn</a>
