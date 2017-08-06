@@ -49,7 +49,6 @@ if ($age_days < $web_days) {
     <meta name="twitter:creator" content="@tosbourn">
   </head>
   <body>
-    <p>What is your age in relation to the internet?</p>
 
     <p><?= $result; ?></p>
 
@@ -64,11 +63,46 @@ if ($age_days < $web_days) {
 
     <a href="/index.php" class="submit">Try another date!</a>
 
+    <aside class="ads">
+      <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=howoldistheinternet" id="_carbonads_js"></script>
+    </aside>
+
+    <img alt="How many days old you are in relation to the internet" src="/image.php?text=<?= $days ?>">
+
     <footer>
       <small class="madeby">
         Made by <a href="http://tosbourn.com/" rel="author">tosbourn ltd</a>.
       </small>
     </footer>
 
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1757071657655796',
+          cookie     : true,
+          xfbml      : true,
+          version    : 'v2.8'
+        });
+        FB.AppEvents.logPageView();
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
   </body>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-43108784-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 </html>

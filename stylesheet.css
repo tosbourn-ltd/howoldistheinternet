@@ -14,6 +14,10 @@ small {
   font-size: 50%;
 }
 
+img {
+  max-width: 100%;
+}
+
 .ads {
   margin: 1% auto;
   text-align: center;
@@ -97,7 +101,15 @@ body {
   padding-bottom: 50px;
 }
 
-
+.intro.date-box {
+  padding: 5px;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+.intro .box-text {
+  font-size: 1.5em;
+}
 
 /* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -117,7 +129,6 @@ body {
 h1 {
   font-size: 2.5rem;
 }
-
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -196,26 +207,8 @@ time {
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.timeline ul li::after {
-  transition: background .5s ease-in-out;
-}
-
 .timeline ul li.in-view::after {
   background: #0097a7;
-}
-
-.timeline ul li div {
-  visibility: hidden;
-  opacity: 0;
-  transition: all .5s ease-in-out;
-}
-
-.timeline ul li:nth-child(odd) div {
-  transform: translate3d(200px, 0, 0);
-}
-
-.timeline ul li:nth-child(even) div {
-  transform: translate3d(-200px, 0, 0);
 }
 
 .timeline ul li.in-view div {
@@ -255,6 +248,12 @@ time {
   }
 }
 
+@media screen and (max-width: 685px) {
+  .intro.date-box {
+    width: 80%;
+  }
+}
+
 /* Dropdown CSS */
 
 .submit, .submit:visited {
@@ -264,7 +263,7 @@ time {
   margin: 0.5em;
   padding: 0.4em;
   font-size: 1.5em;
-  background-color: #0097a7;
+  background-color: #552f99;
   border: none;
   border-radius: 5px;
   color: #fff;
@@ -286,7 +285,7 @@ time {
 }
 
 .dropdown__select--emerald {
-  background-color: #0097a7; /* background colour where wording is */
+  background-color: #673ab7; /* background colour where wording is */
   color: #fff;
 }
 
@@ -342,7 +341,7 @@ time {
 
   /* Emerald dropdown style */
   .dropdown--emerald::before {
-    background-color: #008391; /* arrow box colour */
+    background-color: #552f99; /* arrow box colour */
   }
 
   .dropdown--emerald::after {
