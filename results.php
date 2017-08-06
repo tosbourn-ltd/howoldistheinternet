@@ -54,10 +54,10 @@ if ($age_days < $web_days) {
 
     <section class="socialshares">
 
-      <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhowoldistheinter.net%2Fresults.php">Facebook</a>
-      <a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=<?=$sharing_result;?>&amp;url=http%3A%2F%2Fhowoldistheinter.net">Twitter</a>
+      <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">Facebook</a>
+      <a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=<?=$sharing_result;?>&amp;url=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">Twitter</a>
 
-      <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhowoldistheinter.net&amp;title=<?=$sharing_result?>&amp;summary=<?=$sharing_result?>&amp;source=http%3A%2F%2Fhowoldistheinter.net">LinkedIn</a>
+      <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>&amp;title=<?=$sharing_result?>&amp;summary=<?=$sharing_result?>&amp;source=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">LinkedIn</a>
 
     </section>
 
