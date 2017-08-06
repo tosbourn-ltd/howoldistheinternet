@@ -1,6 +1,11 @@
 body {
   font-family: helvetica neue, sans-serif;
   text-align: center;
+  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  background: #946dda;
+  color: #fff;
+  overflow-x: hidden;
+  padding-bottom: 50px;
 }
 
 h2 {
@@ -93,14 +98,6 @@ a.twitter:visited {
   box-sizing: border-box;
 }
 
-body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #673ab7;
-  color: #fff;
-  overflow-x: hidden;
-  padding-bottom: 50px;
-}
-
 .intro.date-box {
   padding: 5px;
   width: 50%;
@@ -115,7 +112,7 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .intro {
-  background: #0097a7;
+  background: #47c1ce;
   padding: 100px 0;
 }
 
@@ -134,7 +131,7 @@ h1 {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-  background: #673ab7;
+  background: #946dda;
   padding: 50px 0;
 }
 
@@ -164,7 +161,7 @@ h1 {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #0097a7;
+  background: #47c1ce;
 }
 
 .timeline ul li div::before {
@@ -193,7 +190,7 @@ h1 {
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #0097a7;
+  border-color: transparent transparent transparent #47c1ce;
 }
 
 time {
@@ -208,7 +205,7 @@ time {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul li.in-view::after {
-  background: #0097a7;
+  background: #47c1ce;
 }
 
 .timeline ul li.in-view div {
@@ -263,7 +260,7 @@ time {
   margin: 0.5em;
   padding: 0.4em;
   font-size: 1.5em;
-  background-color: #552f99;
+  background-color: #673ab7;
   border: none;
   border-radius: 5px;
   color: #fff;
@@ -285,7 +282,7 @@ time {
 }
 
 .dropdown__select--emerald {
-  background-color: #673ab7; /* background colour where wording is */
+  background-color: #946dda; /* background colour where wording is */
   color: #fff;
 }
 
@@ -341,7 +338,7 @@ time {
 
   /* Emerald dropdown style */
   .dropdown--emerald::before {
-    background-color: #552f99; /* arrow box colour */
+    background-color: #673ab7; /* arrow box colour */
   }
 
   .dropdown--emerald::after {
@@ -349,7 +346,7 @@ time {
   }
 
   @-moz-document url-prefix() {
-    .dropdown__select 						 { padding-right: .9em }
+    .dropdown__select { padding-right: .9em }
     .dropdown--large .dropdown__select { padding-right: 1.3em }
     .dropdown--small .dropdown__select { padding-right: .5em }
   }
