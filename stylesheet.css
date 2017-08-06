@@ -1,5 +1,10 @@
 body {
   font-family: helvetica neue, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: helvetica neue, sans-serif;
 }
 
 small {
@@ -7,6 +12,10 @@ small {
   color: #ddd;
   margin-top: 1%;
   font-size: 50%;
+}
+
+img {
+  max-width: 100%;
 }
 
 .ads {
@@ -90,7 +99,19 @@ body {
   color: #fff;
   overflow-x: hidden;
   padding-bottom: 50px;
-}  /* INTRO SECTION
+}
+
+.intro.date-box {
+  padding: 5px;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+.intro .box-text {
+  font-size: 1.5em;
+}
+
+/* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .intro {
@@ -108,7 +129,6 @@ body {
 h1 {
   font-size: 2.5rem;
 }
-
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -187,26 +207,8 @@ time {
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.timeline ul li::after {
-  transition: background .5s ease-in-out;
-}
-
 .timeline ul li.in-view::after {
   background: #0097a7;
-}
-
-.timeline ul li div {
-  visibility: hidden;
-  opacity: 0;
-  transition: all .5s ease-in-out;
-}
-
-.timeline ul li:nth-child(odd) div {
-  transform: translate3d(200px, 0, 0);
-}
-
-.timeline ul li:nth-child(even) div {
-  transform: translate3d(-200px, 0, 0);
 }
 
 .timeline ul li.in-view div {
@@ -244,4 +246,112 @@ time {
     border-width: 8px 16px 8px 0;
     border-color: transparent #0097a7 transparent transparent;
   }
+}
+
+@media screen and (max-width: 685px) {
+  .intro.date-box {
+    width: 80%;
+  }
+}
+
+/* Dropdown CSS */
+
+.submit, .submit:visited {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0.5em;
+  padding: 0.4em;
+  font-size: 1.5em;
+  background-color: #552f99;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.dropdown--large {
+  font-size: 1.2em;
+}
+
+.dropdown__select{
+  font-size: inherit; /* inherit size from .dropdown */
+  padding: .5em; /* add some space*/
+  margin: 0; /* remove default margins */
+}
+
+.dropdown__select--emerald {
+  background-color: #673ab7; /* background colour where wording is */
+  color: #fff;
+}
+
+@supports (pointer-events: none) and
+((-webkit-appearance: none) or
+(-moz-appearance: none) or
+(appearance: none)) {
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .dropdown__select {
+    padding-right: 2.5em; /* accommodate with the pseudo elements for the dropdown arrow */
+    border: 0;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  .dropdown::before,
+  .dropdown::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .dropdown::after { /*  Custom dropdown arrow */
+    content: "\25BC";
+    height: 1em;
+    font-size: .625em;
+    line-height: 1;
+    right: 1.2em;
+    top: 50%; margin-top: -.5em;
+  }
+
+  .dropdown::before { /*  Custom dropdown arrow cover */
+    width: 2em;
+    right: 0; top: 0; bottom: 0;
+    border-radius: 0 3px 3px 0;
+  }
+
+  .dropdown__select[disabled] {
+    color: rgba(0,0,0,.3);
+  }
+
+  .dropdown.dropdown--disabled::after {
+    color: rgba(0,0,0,.1);
+  }
+
+  /* Emerald dropdown style */
+  .dropdown--emerald::before {
+    background-color: #552f99; /* arrow box colour */
+  }
+
+  .dropdown--emerald::after {
+    color: rgba(0,0,0,.4);
+  }
+
+  @-moz-document url-prefix() {
+    .dropdown__select 						 { padding-right: .9em }
+    .dropdown--large .dropdown__select { padding-right: 1.3em }
+    .dropdown--small .dropdown__select { padding-right: .5em }
+  }
+
 }
