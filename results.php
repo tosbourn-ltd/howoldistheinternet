@@ -38,7 +38,7 @@ if ($age_days < $web_days) {
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta property="og:site_name" content="How old is the internet?">
     <meta property="og:title" name="twitter:title" content="How old is the internet?">
-    <meta property="og:description" content="This is how old the internet was when I was born!">
+    <meta property="og:description" content="<?=$sharing_result?>">
     <meta property="og:type" content="website">
     <meta property="fb:app_id" content="1757071657655796">
     <meta property="locale" content="en_GB">
