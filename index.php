@@ -54,7 +54,7 @@
     <section class="intro date-box">
     <p class="box-text">How old were you when the internet was launched?</p>
     <div >
-      <form action="/results.php" method="GET">
+      <form action="/post-results.php" method="POST">
         <span class="dropdown dropdown--emerald dropdown--large">
         <select name="year" class="dropdown__select dropdown__select--emerald">
           <option value="">Year</option>
