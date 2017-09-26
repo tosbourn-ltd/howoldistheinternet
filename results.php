@@ -74,8 +74,8 @@ if ($age_days < $web_days) {
 
     <footer>
       <small class="madeby">
-        <a href="#1"><img class="logo animated bounceIn" src="images/logo.png" alt="Tosbourn logo"></a>
-        Made by <a href="http://tosbourn.com/" rel="author">tosbourn ltd</a>
+        <a href="https://tosbourn.com/"><img class="logo animated bounceIn" src="images/logo.png" alt="Tosbourn logo"></a>
+        Made by <a href="https://tosbourn.com/" rel="author">tosbourn ltd</a>
       </small>
     </footer>
 

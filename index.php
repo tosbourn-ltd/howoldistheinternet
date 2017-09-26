@@ -237,8 +237,8 @@
         If you want the number of days from the time the internet technology was made it is <a href="http://news.nationalgeographic.co.uk/news/2009/08/090831-internet-40th-video-ap.html"><?=$internet_days;?></a>.
       </small>
       <small class="madeby">
-        <a href="#1"><img class="logo animated bounceIn" src="images/logo.png" alt="Tosbourn logo"></a>
-        Made by <a href="http://tosbourn.com/" rel="author">tosbourn ltd</a>
+        <a href="https://tosbourn.com/"><img class="logo animated bounceIn" src="images/logo.png" alt="Tosbourn logo"></a>
+        Made by <a href="https://tosbourn.com/" rel="author">tosbourn ltd</a>
       </small>
     </footer>
 
