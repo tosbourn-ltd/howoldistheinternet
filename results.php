@@ -1,32 +1,31 @@
 <?php
-date_default_timezone_set("Europe/London");
-$now                 = time();
-$birthday            = strtotime("{$_GET['year']}-{$_GET['month']}-{$_GET['day']}");
-$age_days            = floor(($now - $birthday)/(60*60*24));
-$start_date_web      = strtotime("1989-03-12");
-$web_days            = floor(($now - $start_date_web)/(60*60*24));
-$older_days          = floor(($now - $birthday)/(60*60*24));
+  date_default_timezone_set("Europe/London");
+  $now                 = time();
+  $birthday            = $_GET['date'];
+  $age_days            = floor(($now - $birthday)/(60*60*24));
+  $start_date_web      = strtotime("1989-03-12");
+  $web_days            = floor(($now - $start_date_web)/(60*60*24));
+  $older_days          = floor(($now - $birthday)/(60*60*24));
+  $younger_age_difference      = $web_days - $age_days;
+  $older_age_difference        = $age_days - $web_days;
 
-$younger_age_difference      = $web_days - $age_days;
-$older_age_difference        = $age_days - $web_days; ?>
+  $result = "";
+  $sharing_result = "";
 
-<?php
-$result = "";
-$sharing_result = "";
-
-if ($age_days < $web_days) {
-  $result = "The internet was $younger_age_difference days old when you were born!";
-  $sharing_result = "The internet was $younger_age_difference days old when I was born!";
-  $days = $younger_age_difference;
-} elseif ($age_days > $web_days) {
-  $result = "The internet was launched $older_age_difference days after you were born!";
-  $sharing_result = "The internet was launched $older_age_difference days after I was born!";
-  $days = $older_age_difference;
-} else {
-  $result = "Wow! You're exactly the same age as the internet!";
-  $sharing_result = "Wow! I'm exactly the same age as the internet!";
-  $days = 0;
-} ?>
+  if ($age_days < $web_days) {
+    $result = "The internet was $younger_age_difference days old when you were born!";
+    $sharing_result = "The internet was $younger_age_difference days old when I was born!";
+    $days = $younger_age_difference;
+  } elseif ($age_days > $web_days) {
+    $result = "The internet was launched $older_age_difference days after you were born!";
+    $sharing_result = "The internet was launched $older_age_difference days after I was born!";
+    $days = $older_age_difference;
+  } else {
+    $result = "Wow! You're exactly the same age as the internet!";
+    $sharing_result = "Wow! I'm exactly the same age as the internet!";
+    $days = 0;
+  }
+?>
 
 <!DOCTYPE html>
 <html>
@@ -42,9 +41,9 @@ if ($age_days < $web_days) {
     <meta property="og:type" content="website">
     <meta property="fb:app_id" content="1757071657655796">
     <meta property="locale" content="en_GB">
-    <meta property="og:url" content="https://www.howoldistheinter.net/results.php?year=<?= $_GET['year'] ?>&month=<?= $_GET['month'] ?>&day=<?= $_GET['day'] ?>" name="twitter:url">
-    <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/image.php?text=<?= $days ?>">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:url" content="https://www.howoldistheinter.net/results.php?date=<?= $birthday; ?>" name="twitter:url">
+    <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/image.php?text=<?= $days; ?>">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@tosbourn">
     <meta name="twitter:creator" content="@tosbourn">
   </head>
@@ -55,10 +54,11 @@ if ($age_days < $web_days) {
     <section class="socialshares">
       <div class="container">
 
-        <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">Share on Facebook</a>
-        <a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=<?=$sharing_result;?>&amp;url=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">Share on Twitter</a>
+        <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>">Share on Facebook</a>
 
-        <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>&amp;title=<?=$sharing_result?>&amp;summary=<?=$sharing_result?>&amp;source=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">Share on LinkedIn</a>
+        <a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=<?= $sharing_result; ?>&amp;url=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>">Share on Twitter</a>
+
+        <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>&amp;title=<?=$sharing_result?>&amp;summary=<?=$sharing_result?>&amp;source=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>">Share on LinkedIn</a>
       </div>
     </section>
 
