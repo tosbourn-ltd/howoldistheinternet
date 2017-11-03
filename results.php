@@ -53,15 +53,18 @@ if ($age_days < $web_days) {
     <p><?= $result; ?></p>
 
     <section class="socialshares">
+      <div class="container">
 
-      <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">Facebook</a>
-      <a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=<?=$sharing_result;?>&amp;url=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">Twitter</a>
+        <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">Share on Facebook</a>
+        <a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=<?=$sharing_result;?>&amp;url=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">Share on Twitter</a>
 
-      <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>&amp;title=<?=$sharing_result?>&amp;summary=<?=$sharing_result?>&amp;source=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">LinkedIn</a>
-
+        <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>&amp;title=<?=$sharing_result?>&amp;summary=<?=$sharing_result?>&amp;source=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">Share on LinkedIn</a>
+      </div>
     </section>
 
-    <a href="/index.php" class="submit">Try another date!</a>
+    <div class="intro date-box">
+      <a href="/index.php" class="submit">Try another date!</a>
+    </div>
 
     <aside class="ads">
       <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=howoldistheinternet" id="_carbonads_js"></script>
@@ -71,7 +74,8 @@ if ($age_days < $web_days) {
 
     <footer>
       <small class="madeby">
-        Made by <a href="http://tosbourn.com/" rel="author">tosbourn ltd</a>.
+        <a href="https://tosbourn.com/"><img class="logo animated bounceIn" src="images/logo.png" alt="Tosbourn logo"></a>
+        Made by <a href="https://tosbourn.com/" rel="author">tosbourn ltd</a>
       </small>
     </footer>
 
