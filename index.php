@@ -1,12 +1,30 @@
 <?php
-    date_default_timezone_set("Europe/London");
-    $now                 = time();
-    $start_date_web      = strtotime("1989-03-12");
-    $start_date_internet = strtotime("1969-09-02");
-    $web_days            = floor(($now - $start_date_web)/(60*60*24));
-    $internet_days       = floor(($now - $start_date_internet)/(60*60*24));
+  date_default_timezone_set("Europe/London");
+  $now                 = time();
+  $start_date_web      = strtotime("1989-03-12");
+  $start_date_internet = strtotime("1969-09-02");
+  $birthday            = $_GET['date'];
+  $web_days            = floor(($now - $start_date_web)/(60*60*24));
+  $age_days            = floor(($now - $birthday)/(60*60*24));
+  $internet_days       = floor(($now - $start_date_internet)/(60*60*24));
+  $younger_age_difference      = $web_days - $age_days;
+  $older_age_difference        = $age_days - $web_days;
+
+  $sharing_result = "";
+
+  if ($age_days < $web_days) {
+    $sharing_result = "The internet was $younger_age_difference days old when I was born!";
+    $days = $younger_age_difference;
+  } elseif ($age_days > $web_days) {
+    $sharing_result = "The internet was launched $older_age_difference days after I was born!";
+    $days = $older_age_difference;
+  } else {
+    $sharing_result = "Wow! I'm exactly the same age as the internet!";
+    $days = 0;
+  }
 ?>
-<!doctype html>
+
+<!DOCTYPE html>
 <!--
   Hi there, cheers for checking out my source code.
 
@@ -16,11 +34,6 @@
 
   Cheers,
   Toby (@tosbourn)
-
-  Thanks to this awesome tutorial from https://webdesign.tutsplus.com/tutorials/building-a-vertical-timeline-with-css-and-a-touch-of-javascript--cms-26528 which I borrowed heavily from for the internet timeline!
-
-  Cheers,
-  Elaine (@kittylainey)
 -->
 <html>
   <head>
@@ -33,18 +46,21 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta property="og:site_name" content="How old is the internet?">
     <meta property="og:title" name="twitter:title" content="How old is the internet?">
-    <meta property="og:description" content="Just how many days old is the internet right now?">
+
+    <?php if ($_GET['date']) { ?>
+      <meta property="og:description" content="<?=$sharing_result?>">
+      <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/image.php?text=<?= $days; ?>">
+      <meta property="og:url" content="https://www.howoldistheinter.net/?date=<?= $_GET['date']; ?>" name="twitter:url">
+    <?php } else { ?>
+      <meta property="og:description" content="Just how many days old is the internet right now?">
+      <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/social.png">
+      <meta property="og:url" content="https://www.howoldistheinter.net" name="twitter:url">
+    <?php } ?>
+
     <meta property="og:type" content="website">
     <meta property="fb:app_id" content="1757071657655796">
     <meta property="locale" content="en_GB">
-    <meta property="og:url" content="https://www.howoldistheinter.net" name="twitter:url">
-    <?php if ($_GET['days']) { ?>
-      <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/image.php?text=<?= $_GET['days']; ?>">
-    <?php } else { ?>
-      <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/social.png">
-    <?php } ?>
-
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@tosbourn">
     <meta name="twitter:creator" content="@tosbourn">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Ubuntu:300" rel="stylesheet">
