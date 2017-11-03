@@ -38,7 +38,12 @@
     <meta property="fb:app_id" content="1757071657655796">
     <meta property="locale" content="en_GB">
     <meta property="og:url" content="https://www.howoldistheinter.net" name="twitter:url">
-    <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/social.png">
+    <?php if ($_GET['days']) { ?>
+      <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/image.php?text=<?= $_GET['days']; ?>">
+    <?php } else { ?>
+      <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/social.png">
+    <?php } ?>
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@tosbourn">
     <meta name="twitter:creator" content="@tosbourn">

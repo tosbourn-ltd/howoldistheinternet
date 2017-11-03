@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set("Europe/London");
 $now                 = time();
-$birthday            = strtotime("{$_GET['year']}-{$_GET['month']}-{$_GET['day']}");
+$birthday            = $_GET['date'];
 $age_days            = floor(($now - $birthday)/(60*60*24));
 $start_date_web      = strtotime("1989-03-12");
 $web_days            = floor(($now - $start_date_web)/(60*60*24));
@@ -42,8 +42,8 @@ if ($age_days < $web_days) {
     <meta property="og:type" content="website">
     <meta property="fb:app_id" content="1757071657655796">
     <meta property="locale" content="en_GB">
-    <meta property="og:url" content="https://www.howoldistheinter.net/results.php?year=<?= $_GET['year'] ?>&month=<?= $_GET['month'] ?>&day=<?= $_GET['day'] ?>" name="twitter:url">
-    <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/image.php?text=<?= $days ?>">
+    <meta property="og:url" content="https://www.howoldistheinter.net/results.php?date=<?= $birthday; ?>" name="twitter:url">
+    <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/image.php?text=<?= $days; ?>">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@tosbourn">
     <meta name="twitter:creator" content="@tosbourn">
@@ -55,10 +55,11 @@ if ($age_days < $web_days) {
     <section class="socialshares">
       <div class="container">
 
-        <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">Share on Facebook</a>
-        <a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=<?=$sharing_result;?>&amp;url=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">Share on Twitter</a>
+        <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= urlencode("https://howoldistheinter.net/?days={$days}")?>">Share on Facebook</a>
 
-        <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>&amp;title=<?=$sharing_result?>&amp;summary=<?=$sharing_result?>&amp;source=<?= urlencode("https://howoldistheinter.net/results.php?year=".$_GET['year']."&month=".$_GET['month']."&day=".$_GET['day'])?>">Share on LinkedIn</a>
+        <a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=<?= $sharing_result; ?>&amp;url=<?= urlencode("https://howoldistheinter.net/?days={$days}")?>">Share on Twitter</a>
+
+        <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?= urlencode("https://howoldistheinter.net/?days={$days}")?>&amp;title=<?=$sharing_result?>&amp;summary=<?=$sharing_result?>&amp;source=<?= urlencode("https://howoldistheinter.net/?days={$days}")?>">Share on LinkedIn</a>
       </div>
     </section>
 
