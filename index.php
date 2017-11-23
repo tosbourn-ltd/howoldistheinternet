@@ -52,7 +52,7 @@
       <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/image.php?text=<?= $days; ?>">
       <meta property="og:url" content="https://www.howoldistheinter.net/?date=<?= $_GET['date']; ?>" name="twitter:url">
     <?php } else { ?>
-      <meta name="description" property="og:description" content="Just how many days old is the internet right now?">
+      <meta name="description" property="og:description" content="Find out just how many days old is the internet right now.">
       <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/social.png">
       <meta property="og:url" content="https://www.howoldistheinter.net" name="twitter:url">
     <?php } ?>
