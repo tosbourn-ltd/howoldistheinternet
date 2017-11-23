@@ -37,7 +37,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta property="og:site_name" content="How old is the internet?">
     <meta property="og:title" name="twitter:title" content="How old is the internet?">
-    <meta property="og:description" content="<?=$sharing_result?>">
+    <meta name="description" property="og:description" content="<?=$sharing_result?>">
     <meta property="og:type" content="website">
     <meta property="fb:app_id" content="1757071657655796">
     <meta property="locale" content="en_GB">
@@ -46,6 +46,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@tosbourn">
     <meta name="twitter:creator" content="@tosbourn">
+    <link rel="canonical" href="https://howoldistheinter.net/">
   </head>
   <body>
 
