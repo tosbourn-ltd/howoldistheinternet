@@ -262,8 +262,6 @@
         <a href="https://tosbourn.com/"><img class="logo animated bounceIn" src="images/logo.png" alt="Tosbourn logo"></a>
         Made by <a href="https://tosbourn.com/" rel="author">tosbourn ltd</a>
       </small>
-      <script type="text/javascript" src="//ylx-1.com/bnr.php?section=General&pub=294168&format=300x250&ga=g&bg=1"></script>
-<noscript><a href="https://yllix.com/publishers/294168" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub/300x250.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" /></a></noscript>
     </footer>
 
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
