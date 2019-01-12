@@ -17,7 +17,7 @@ The Favicon has been made by [Michael Huang](https://github.com/fernozzle).
 
 ## Site
 
-Last update: 2017/19/05
+Last update: 2019-01-11
 
 Language: English
 
