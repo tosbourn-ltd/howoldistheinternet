@@ -3,6 +3,7 @@
 A [site](https://www.howoldistheinter.net/) to let you know how old the internet is.
 
 ## Team
+
 Development: [Toby Osbourn](https://www.tosbourn.com/), Elaine Osbourn
 
 Contact: toby.osbourn@gmail.com
@@ -17,7 +18,7 @@ The Favicon has been made by [Michael Huang](https://github.com/fernozzle).
 
 ## Site
 
-Last update: 2019-01-11
+Last update: 2019-04-04
 
 Language: English
 

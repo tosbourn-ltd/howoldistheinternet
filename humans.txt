@@ -18,8 +18,8 @@
 	Last update:2017/19/05
 	Language:English
 	Doctype:HTML5
-	IDE: Sublime Text 2, FileZilla, Git
+	IDE: Atom, FileZilla, Git
 
-/* MORE @/
+/* MORE */
 
 	https://github.com/tosbourn/howoldistheinternet

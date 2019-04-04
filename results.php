@@ -47,6 +47,13 @@
     <meta name="twitter:site" content="@tosbourn">
     <meta name="twitter:creator" content="@tosbourn">
     <link rel="canonical" href="https://howoldistheinter.net/">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-4822500146225442",
+          enable_page_level_ads: true
+     });
+</script>
   </head>
   <body>
 
