@@ -65,6 +65,8 @@
     <meta name="twitter:creator" content="@tosbourn">
     <link rel="canonical" href="https://howoldistheinter.net/">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Ubuntu:300" rel="stylesheet">
+    <script async defer data-domain="howoldistheinter.net" src="https://plausible.io/js/plausible.js"></script>
+    <meta name="monetization" content="$ilp.uphold.com/FWUieqxLeakN">
   </head>
 
   <body>
