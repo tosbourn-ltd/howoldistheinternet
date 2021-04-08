@@ -28,7 +28,7 @@
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Results</title>
@@ -57,11 +57,11 @@
     <section class="socialshares">
       <div class="container">
 
-        <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>">Share on Facebook</a>
+        <a class="social facebook social__text" target="_blank" rel="noopener" href="http://www.facebook.com/sharer/sharer.php?u=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>">Share on Facebook</a>
 
-        <a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=<?= $sharing_result; ?>&amp;url=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>">Share on Twitter</a>
+        <a class="social twitter social__text" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=<?= $sharing_result; ?>&amp;url=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>">Share on Twitter</a>
 
-        <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>&amp;title=<?=$sharing_result?>&amp;summary=<?=$sharing_result?>&amp;source=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>">Share on LinkedIn</a>
+        <a class="social linkedin social__text" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>&amp;title=<?=$sharing_result?>&amp;summary=<?=$sharing_result?>&amp;source=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>">Share on LinkedIn</a>
       </div>
     </section>
 
@@ -77,7 +77,7 @@
 
     <footer>
       <small class="madeby">
-        <a href="https://tosbourn.com/"><img class="logo animated bounceIn" src="images/logo.png" alt="Tosbourn logo"></a>
+        <a href="https://tosbourn.com/"><img class="logo" src="images/logo.png" alt="Tosbourn logo"></a>
         Made by <a href="https://tosbourn.com/" rel="author">tosbourn ltd</a>
       </small>
     </footer>
