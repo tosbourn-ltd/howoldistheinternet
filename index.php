@@ -35,7 +35,7 @@
   Cheers,
   Toby (@tosbourn)
 -->
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -64,18 +64,23 @@
     <meta name="twitter:site" content="@tosbourn">
     <meta name="twitter:creator" content="@tosbourn">
     <link rel="canonical" href="https://howoldistheinter.net/">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Ubuntu:300" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Ubuntu:300&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Ubuntu:300&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Ubuntu:300&display=swap">
+    </noscript>
   </head>
 
   <body>
-    <p>
+    <h1>
       The Internet is <?=$web_days; ?> days old.<sup>*</sup>
-    </p>
+    </h1>
     <p>
       What have you done today to make it better?
     </p>
     <section class="intro date-box">
-    <p class="box-text">How old were you when the internet was launched?</p>
+    <h2 class="box-text">How old were you when the internet was launched?</h2>
     <div >
       <form action="/post-results.php" method="POST">
         <span class="dropdown dropdown--emerald dropdown--large">
@@ -111,9 +116,9 @@
 
     <section class="socialshares">
       <div class="container">
-        <a class="social facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhowoldistheinter.net%2Fresults.php"><img src="images/share-facebook.svg" alt="Facebook icon"><span class="social__text">Share on Facebook</span></a>
-        <a class="social twitter" target="_blank" href="https://twitter.com/intent/tweet?text=The+internet+is+<?=$web_days;?>+days+old&amp;url=http%3A%2F%2Fhowoldistheinter.net"><img src="images/share-twitter.svg" alt="Twitter icon"><span class="social__text">Share on Twitter</span></a>
-        <a class="social linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhowoldistheinter.net&amp;title=The+internet+is+<?=$web_days?>+days+old&amp;summary=The+internet+is+<?=$web_days?>+days+old&amp;source=http%3A%2F%2Fhowoldistheinter.net"><img src="images/share-linkedin.svg" alt="LinkedIn icon"><span class="social__text">Share on Linkedin</span></a>
+        <a class="social facebook" target="_blank" rel="noopener" href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhowoldistheinter.net%2Fresults.php"><img src="images/share-facebook.svg" alt="Facebook icon" width="32" height="32"><span class="social__text">Share on Facebook</span></a>
+        <a class="social twitter" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=The+internet+is+<?=$web_days;?>+days+old&amp;url=http%3A%2F%2Fhowoldistheinter.net"><img src="images/share-twitter.svg" alt="Twitter icon" width="32" height="32"><span class="social__text">Share on Twitter</span></a>
+        <a class="social linkedin" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhowoldistheinter.net&amp;title=The+internet+is+<?=$web_days?>+days+old&amp;summary=The+internet+is+<?=$web_days?>+days+old&amp;source=http%3A%2F%2Fhowoldistheinter.net"><img src="images/share-linkedin.svg" alt="LinkedIn icon" width="32" height="32"><span class="social__text">Share on Linkedin</span></a>
       </div>
     </section>
 
@@ -129,122 +134,122 @@
 
     <section class="timeline">
       <ul>
-        <li class="in-view">
-          <div data-aos="fade-left" data-aos-delay="300">
+        <li>
+          <div>
             <time>1989</time>
-            <h3>DAY 0 The Birth of WWW</h3>
+            <h2>DAY 0 The Birth of WWW</h2>
             Tim Berners-Lee and Robert Cailliau proposed a 'hypertext' system starting the modern Internet. Berners-Lee invented the Web while at CERN, he developed HTML, HTTP and URIs which have been further refined and form the basis of the modern internet.
           </div>
-          <span data-aos="fade-up"></span>
+          
         </li>
-        <li class="in-view">
-          <div data-aos="fade-right" data-aos-delay="300">
+        <li>
+          <div>
             <time>1991</time>
-            <h3>DAY 919 Release of Linux</h3>
+            <h2>DAY 919 Release of Linux</h2>
             Linux was developed by Linus Torvalds, which is the basis for Android and Chrome OS. Linus was also responsible for developing Git, a distributed revision control system. He is a vocal advocate for Open Source software.
           </div>
-          <span data-aos="fade-up"></span>
+          
         </li>
-        <li class="in-view">
-          <div data-aos="fade-left" data-aos-delay="300">
+        <li>
+          <div>
             <time>1993</time>
-            <h3>DAY 1549 First Microsoft Windows browser released</h3>
+            <h2>DAY 1549 First Microsoft Windows browser released</h2>
             Cello was the first Microsoft Windows browser released and was used at Cornell Law School as Windows access was more widespread amongst lawyers than Unix. As hated as IE? Who knows!
           </div>
-          <span data-aos="fade-up"></span>
+          
         </li>
-        <li class="in-view">
-          <div data-aos="fade-right" data-aos-delay="300">
+        <li>
+          <div>
             <time>1993</time>
-            <h3>DAY 1635 <a href="https://en.wikipedia.org/wiki/W3Catalog">W3 Catalog</a></h3>
+            <h2>DAY 1635 <a href="https://en.wikipedia.org/wiki/W3Catalog">W3 Catalog</a></h2>
             One of the earliest web search engines was put online.
           </div>
-          <span data-aos="fade-up"></span>
+          
         </li>
-        <li class="in-view">
-          <div data-aos="fade-left" data-aos-delay="300">
+        <li>
+          <div>
             <time>1993</time>
-            <h3>DAY 1657 <a href="https://www.ibiblio.org/Dave/drfun.html">Doctor Fun</a></h3>
+            <h2>DAY 1657 <a href="https://www.ibiblio.org/Dave/drfun.html">Doctor Fun</a></h2>
             This web comic was created by David Farley and was one of the first on the world wide web.
           </div>
-          <span data-aos="fade-up"></span>
+          
         </li>
-        <li class="in-view">
-          <div data-aos="fade-right" data-aos-delay="300">
+        <li>
+          <div>
             <time>1995</time>
-            <h3>DAY 2372 WinPlay3 release</h3>
+            <h2>DAY 2372 WinPlay3 release</h2>
             With the release of the first real-time software MP3 player, many people were able to encode and play back MP3s on their PCs.
           </div>
-          <span data-aos="fade-up"></span>
+          
         </li>
-        <li class="in-view">
-          <div data-aos="fade-left" data-aos-delay="300">
+        <li>
+          <div>
             <time>1995</time>
-            <h3>DAY 2181 Yahoo incorporated</h3>
+            <h2>DAY 2181 Yahoo incorporated</h2>
             Believe it or not Yahoo were one of the pioneers of the early internet.
           </div>
-          <span data-aos="fade-up"></span>
+          
         </li>
-        <li class="in-view">
-          <div data-aos="fade-right" data-aos-delay="300">
+        <li>
+          <div>
             <time>1996</time>
-            <h3>DAY 2671 Hotmail goes live</h3>
+            <h2>DAY 2671 Hotmail goes live</h2>
             Hotmail was bought by Microsoft a year after launch and is now known as Outlook.
           </div>
-          <span data-aos="fade-up"></span>
+          
         </li>
-        <li class="in-view">
-          <div data-aos="fade-left" data-aos-delay="300">
+        <li>
+          <div>
             <time>1998</time>
-            <h3>DAY 3470 Google goes live</h3>
+            <h2>DAY 3470 Google goes live</h2>
             Now a household name, since incorporation Google has had rapid growth offering a range of services including email, social networking, cloud storage, mapping and video sharing. They lead development on the Android mobile operating system and Google Chrome. They have recently made rapid developments and innovations in hardware. Remember big brother is watching you.
           </div>
-          <span data-aos="fade-up"></span>
+          
         </li>
-        <li class="in-view">
-          <div data-aos="fade-right" data-aos-delay="300">
+        <li>
+          <div>
             <time>1999</time>
-            <h3>DAY 3713 First major online leak</h3>
+            <h2>DAY 3713 First major online leak</h2>
             One of the first major online leak scandals happened when the name of British intelligence agents appeared on an American website -pre Wikileaks!
           </div>
-          <span data-aos="fade-up"></span>
+          
         </li>
-        <li class="in-view">
-          <div data-aos="fade-left" data-aos-delay="300">
+        <li>
+          <div>
             <time>1999</time>
-            <h3>DAY 3946 Millennium Bug</h3>
+            <h2>DAY 3946 Millennium Bug</h2>
             The Y2K bug was something that could’ve caused problems with dates beyond 31st December 1999, as computers often dealt with the last two numbers in a year, making 1900 the “same” as 2000. Very few problems were ever reported and despite my Father’s panic, our home PC was fine.
           </div>
-          <span data-aos="fade-up"></span>
+          
         </li>
-        <li class="in-view">
-          <div data-aos="fade-right" data-aos-delay="300">
+        <li>
+          <div>
             <time>2001</time>
-            <h3>DAY 4608 First iPod released</h3>
+            <h2>DAY 4608 First iPod released</h2>
             Thus began Apple’s domination.
           </div>
-          <span data-aos="fade-up"></span>
+          
         </li>
-        <li class="in-view">
-          <div data-aos="fade-left" data-aos-delay="300">
+        <li>
+          <div>
             <time>2004</time>
-            <h3>DAY 5442 Facebook launches</h3>
-            Facebook first launched as The Facebook for Harvard University students, now even your Mum and Granny has one.
+            <h2>DAY 5442 Facebook launches</h2>
+            Facebook first launched as The Facebook for Harvard University students, now everyone has one.
           </div>
-          <span data-aos="fade-up"></span>
+          
         </li>
-        <li class="in-view">
-          <div data-aos="fade-right" data-aos-delay="300">
+        <li>
+          <div>
             <time>2006</time>
-            <h3>DAY 6128 Twitter founded</h3>
+            <h2>DAY 6128 Twitter founded</h2>
             Quite often the source of breaking news the world over.
           </div>
-          <span data-aos="fade-up"></span>
+          
         </li>
-        <li class="in-view">
-          <div data-aos="fade-left" data-aos-delay="300">
+        <li>
+          <div>
             <time><?= date("Y"); ?></time>
-            <h3>NOW</h3>
+            <h2>NOW</h2>
             Something we left out? Something happened that you think we should include? <a href="https://www.twitter.com/tosbourn">Contact us!</a>
           </div>
         </li>
@@ -259,7 +264,7 @@
         If you want the number of days from the time the internet technology was made it is <a href="http://news.nationalgeographic.co.uk/news/2009/08/090831-internet-40th-video-ap.html"><?=$internet_days;?></a>.
       </small>
       <small class="madeby">
-        <a href="https://tosbourn.com/"><img class="logo animated bounceIn" src="images/logo.png" alt="Tosbourn logo"></a>
+        <a href="https://tosbourn.com/"><img class="logo" src="images/logo.png" alt="Tosbourn logo" width="48" height="48"></a>
         Made by <a href="https://tosbourn.com/" rel="author">tosbourn ltd</a>
       </small>
     </footer>
