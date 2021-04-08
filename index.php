@@ -270,13 +270,5 @@
         Made by <a href="https://tosbourn.com/" rel="author">tosbourn ltd</a>
       </small>
     </footer>
-
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        once: true,
-        duration: 1200,
-      });
-    </script>
   </body>
 </html>
