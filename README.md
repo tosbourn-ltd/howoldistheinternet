@@ -1,12 +1,12 @@
 # How Old is the Internet
 
-A [site](https://www.howoldistheinter.net/) to let you know how old the internet is.
+A site to answer [How old is the internet?](https://www.howoldistheinter.net/).
 
 ## Team
 
-Development: [Toby Osbourn](https://www.tosbourn.com/), Elaine Osbourn
+Development: [Tosbourn Ltd](https://www.tosbourn.com/)
 
-Contact: toby.osbourn@gmail.com
+Contact: [toby@tosbourn.com](mailto:toby@tosbourn.com)
 
 Twitter: [@tosbourn](https://twitter.com/tosbourn), [@kittylainey](https://twitter.com/kittylainey)
 
@@ -16,12 +16,6 @@ The idea came from a talk by [Ethan Marcotte](https://twitter.com/beep). From: B
 
 The Favicon has been made by [Michael Huang](https://github.com/fernozzle).
 
-## Site
+## Tech
 
-Last update: 2019-04-04
-
-Language: English
-
-Doctype: HTML5
-
-IDE: Sublime Text 2, FileZilla, Git
+The site is two PHP files and some styling.

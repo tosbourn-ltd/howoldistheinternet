@@ -13,13 +13,6 @@
 	The Favicon has been made by Michael Huang
 	Github: @fernozzle
 
-
-/* SITE */
-	Last update:2017/19/05
-	Language:English
-	Doctype:HTML5
-	IDE: Atom, FileZilla, Git
-
 /* MORE */
 
 	https://github.com/tosbourn/howoldistheinternet
