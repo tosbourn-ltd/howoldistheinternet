@@ -1,7 +1,6 @@
 body {
-  font-family: helvetica neue, sans-serif;
+  font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
   text-align: center;
-  font: normal 16px/1.5 'Ubuntu', sans-serif;
   background: #1F2D36;
   color: #fff;
   overflow-x: hidden;
@@ -17,12 +16,6 @@ small {
 
 img {
   max-width: 100%;
-}
-
-.ads {
-  margin: 1% auto;
-  text-align: center;
-  font-size: small;
 }
 
 .carbon-img img {
@@ -44,20 +37,7 @@ p, footer {
   width: 95%;
   margin: 1% auto;
   text-align: center;
-  font-size: 300%;
   display: block;
-}
-
-iframe{
-  margin-top: 2.5%;
-}
-
-.social {
-  padding: 1%;
-  display: inline-block;
-  margin: 1.5%;
-  text-decoration: none;
-  border-radius: 100px;
 }
 
 a.social:visited {
@@ -71,17 +51,23 @@ a.twitter:visited {
 .socialshares {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px auto;
-  text-align: center;
+  margin: 0 auto 50px auto;
+  width: 500px;
+  justify-content: flex-start;
+}
+
+.socialshares > h2 {
+  width: 100%;
+  text-align: left;
 }
 
 .social {
-  padding: 0.75rem 2rem;
-  display: inline-block;
-  margin: 0.25rem;
-  flex-grow: 1;
-  transition: all 0.2s;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 5px;
   color: #fff;
+  font-size: 16px;
+  margin-right: 8px;
 }
 
 .social:hover {
@@ -92,12 +78,6 @@ a.twitter:visited {
 .social img {
   height: 2rem;
   vertical-align: middle;
-}
-
-.social__text {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 1.5em;
 }
 
 .facebook {
@@ -111,6 +91,7 @@ a.twitter:visited {
 .linkedin {
   background-color: #007ab9;
 }
+
 *,
 *::before,
 *::after {
@@ -121,9 +102,9 @@ a.twitter:visited {
 
 .intro.date-box {
   padding: 25px;
-  width: 50%;
   margin: 50px auto;
   border-radius: 5px;
+  width: 500px;
 }
 .intro .box-text {
   font-size: 1.5em;
@@ -138,7 +119,8 @@ a.twitter:visited {
 
 .intro {
   background: #005B68;
-  padding: 100px 0;
+  margin-top: 50px;
+  padding: 8px;
 }
 
 .container {
@@ -148,16 +130,12 @@ a.twitter:visited {
   text-align: center;
 }
 
-h1 {
-  font-size: 3rem;
-}
-
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
   background: #1F2D36;
-  padding: 50px 0;
+  margin-top: 50px;
 }
 
 .timeline ul li {
@@ -165,31 +143,26 @@ h1 {
   position: relative;
   width: 6px;
   margin: 0 auto;
-  padding-top: 50px;
   background: #fff;
+  margin-top: -50px;
+  text-align: left;
 }
 
-.timeline span {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%)!important; /* FIX ME */
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: inherit;
-}
-
-.timeline ul li div {
+.timeline-element {
   position: relative;
   bottom: 0;
   width: 400px;
   padding: 15px;
   background: #005B68;
+  border-radius: 5px;
+  line-height: 20px;
 }
 
-.timeline ul li div::before {
+.timeline-element h2 {
+  margin-bottom: 8px;
+}
+
+.timeline-element::before {
   content: '';
   position: absolute;
   bottom: 7px;
@@ -198,21 +171,25 @@ h1 {
   border-style: solid;
 }
 
-.timeline ul li:nth-child(odd) div {
+.timeline ul li:first-child {
+  padding-top: 50px;
+}
+
+.timeline ul li:nth-child(odd) .timeline-element {
   left: 45px;
 }
 
-.timeline ul li:nth-child(odd) div::before {
+.timeline ul li:nth-child(odd) .timeline-element::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
   border-color: transparent #005B68 transparent transparent;
 }
 
-.timeline ul li:nth-child(even) div {
+.timeline ul li:nth-child(even) .timeline-element {
   left: -439px;
 }
 
-.timeline ul li:nth-child(even) div::before {
+.timeline ul li:nth-child(even) .timeline-element::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent #005B68;
@@ -221,7 +198,6 @@ h1 {
 time {
   display: block;
   font-size: 1.2rem;
-  font-weight: bold;
   margin-bottom: 8px;
 }
 
@@ -231,13 +207,8 @@ time {
 
 /* Logo
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.madeby:before {
-  content: '';
-  display: block;
-  margin: 50px auto 50px;
-  width: 4rem;
-  height: 4px;
-  background-color: #1a1a1a;
+.madeby {
+  margin-top: 50px;
 }
 
 .logo {
@@ -257,10 +228,10 @@ time {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 @media screen and (max-width: 900px) {
-  .timeline ul li div {
+  .timeline-element {
     width: 250px;
   }
-  .timeline ul li:nth-child(even) div {
+  .timeline ul li:nth-child(even) .timeline-element {
     left: -289px;
     /*250+45-6*/
   }
@@ -269,14 +240,16 @@ time {
 @media screen and (max-width: 600px) {
   .timeline ul li {
     margin-left: 20px;
+    padding-top: 100px;
   }
-  .timeline ul li div {
+  .timeline-element {
     width: calc(100vw - 91px);
+    
   }
-  .timeline ul li:nth-child(even) div {
+  .timeline ul li:nth-child(even) .timeline-element {
     left: 45px;
   }
-  .timeline ul li:nth-child(even) div::before {
+  .timeline ul li:nth-child(even) .timeline-element::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
     border-color: transparent #005B68 transparent transparent;
@@ -285,6 +258,10 @@ time {
 
 @media screen and (max-width: 685px) {
   .intro.date-box {
+    width: 80%;
+  }
+  
+  .socialshares {
     width: 80%;
   }
 }
@@ -409,6 +386,7 @@ time {
   box-shadow: 0 1px 4px 1px hsla(0, 0%, 0%, .1);
   font-size: var(--font-size);
   line-height: 1.5;
+  width: 500px;
 }
 
 #carbonads a {
@@ -456,4 +434,22 @@ time {
   font-weight: 600;
   font-size: 9px;
   line-height: 1;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.larger {
+  font-size: 60px;
+  letter-spacing: -5px;
+}
+
+.larger a {
+  text-decoration: none;
+}
+
+.day-highlight {
+  font-size: 24px;
+  font-weight: bold;
 }
