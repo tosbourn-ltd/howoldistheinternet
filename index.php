@@ -25,16 +25,6 @@
 ?>
 
 <!DOCTYPE html>
-<!--
-  Hi there, cheers for checking out my source code.
-
-  It isn't the most spectacular stuff in the world but if you want
-  do make it better you can do by visiting the github page and doing
-  a pull request: https://github.com/tosbourn/howoldistheinternet
-
-  Cheers,
-  Toby (@tosbourn)
--->
 <html lang="en">
   <head>
     <meta charset="utf-8">
