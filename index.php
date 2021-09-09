@@ -2,7 +2,7 @@
   date_default_timezone_set("Europe/London");
   $now                 = time();
   $start_date_web      = strtotime("1989-03-12");
-  $start_date_internet = strtotime("1969-09-02");
+  $start_date_internet = strtotime("1969-10-29");
   $birthday            = $_GET['date'];
   $web_days            = floor(($now - $start_date_web)/(60*60*24));
   $age_days            = floor(($now - $birthday)/(60*60*24));
@@ -121,40 +121,56 @@
             <h2>The Birth of WWW</h2>
             Tim Berners-Lee and Robert Cailliau proposed a 'hypertext' system starting the modern Internet. Berners-Lee invented the Web while at CERN, he developed HTML, HTTP and URIs which have been further refined and form the basis of the modern internet.
           </div>
-          
         </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="1991">1991 - day <span class="day-highlight">919</span></time>
             <h2>Release of Linux</h2>
             Linux was developed by Linus Torvalds, which is the basis for Android and Chrome OS. Linus was also responsible for developing Git, a distributed revision control system. He is a vocal advocate for Open Source software.
           </div>
-          
         </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="1993">1993 - day <span class="day-highlight">1549</span></time>
             <h2>First Microsoft Windows browser released</h2>
             Cello was the first Microsoft Windows browser released and was used at Cornell Law School as Windows access was more widespread amongst lawyers than Unix. As hated as IE? Who knows!
           </div>
-          
         </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="1993">1993 - day <span class="day-highlight">1635</span></time>
             <h2><a href="https://en.wikipedia.org/wiki/W3Catalog">W3 Catalog</a></h2>
             One of the earliest web search engines was put online.
           </div>
-          
         </li>
+
+        <li>
+          <div class="timeline-element">
+            <time datetime="1993">1993 - day <span class="day-highlight">1685</span></time>
+            <h2>First Livestream</h2>
+            A coffee pot at the University of Cambridge was the subject of the world's first livestream.
+          </div>
+        </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="1993">1993 - day <span class="day-highlight">1657</span></time>
             <h2><a href="https://www.ibiblio.org/Dave/drfun.html">Doctor Fun</a></h2>
             This web comic was created by David Farley and was one of the first on the world wide web.
           </div>
-          
         </li>
+
+        <li>
+          <div class="timeline-element">
+            <time datetime="1993">1994 - day <span class="day-highlight">1978</span></time>
+            <h2>The first ecommerce site & transaction</h2>
+            This is a contended fact but NetMarket claims to have conducted the first online sale for a Sting CD for the grand total of $12.48 plus postage and packaging.
+          </div>
+        </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="1994">1994</time>
@@ -162,71 +178,88 @@
             This isn't the first banner ad, but it does help the site!
             <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYI523W&placement=howoldistheinternet" id="_carbonads_js"></script>
           </div>
-          
         </li>
-        <li>
-          <div class="timeline-element">
-            <time datetime="1995">1995 - day <span class="day-highlight">2372</span></time>
-            <h2>WinPlay3 release</h2>
-            With the release of the first real-time software MP3 player, many people were able to encode and play back MP3s on their PCs.
-          </div>
-          
-        </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="1995">1995 - day <span class="day-highlight">2181</span></time>
             <h2>Yahoo incorporated</h2>
             Believe it or not Yahoo were one of the pioneers of the early internet.
           </div>
-          
         </li>
+
+        <li>
+          <div class="timeline-element">
+            <time datetime="1995">1995 - day <span class="day-highlight">2372</span></time>
+            <h2>WinPlay3 release</h2>
+            With the release of the first real-time software MP3 player, many people were able to encode and play back MP3s on their PCs.
+          </div>
+        </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="1996">1996 - day <span class="day-highlight">2671</span></time>
             <h2>Hotmail goes live</h2>
             Hotmail was bought by Microsoft a year after launch and is now known as Outlook.
           </div>
-          
         </li>
+
+        <li>
+          <div class="timeline-element">
+            <time datetime="1996">1996 - day <span class="day-highlight">2713</span></time>
+            <h2>First mobile phone with internet access</h2>
+            The phone was large and heavy but the first that could access the internet.
+          </div>
+        </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="1998">1998 - day <span class="day-highlight">3470</span></time>
             <h2>Google goes live</h2>
-            Now a household name, since incorporation Google has had rapid growth offering a range of services including email, social networking, cloud storage, mapping and video sharing. They lead development on the Android mobile operating system and Google Chrome. They have recently made rapid developments and innovations in hardware. Remember big brother is watching you.
+            Now a household name, since incorporation Google has had rapid growth offering a range of services including email, social networking, cloud storage, mapping and video sharing. They lead development on the Android mobile operating system and Google Chrome. They have recently made rapid developments and innovations in hardware.
           </div>
-          
         </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="1999">1999 - day <span class="day-highlight">3713</span></time>
             <h2>First major online leak</h2>
             One of the first major online leak scandals happened when the name of British intelligence agents appeared on an American website -pre Wikileaks!
           </div>
-          
         </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="1999">1999 - day <span class="day-highlight">3946</span></time>
             <h2>Millennium Bug</h2>
             The Y2K bug was something that could’ve caused problems with dates beyond 31st December 1999, as computers often dealt with the last two numbers in a year, making 1900 the “same” as 2000. Very few problems were ever reported and despite my Father’s panic, our home PC was fine.
           </div>
-          
         </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="2001">2001 - day <span class="day-highlight">4608</span></time>
             <h2>First iPod released</h2>
             Thus began Apple’s domination.
           </div>
-          
         </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="2004">2004 - day <span class="day-highlight">5442</span></time>
             <h2>Facebook launches</h2>
-            Facebook first launched as The Facebook for Harvard University students, now everyone has one.
+            Facebook first launched as The Facebook for Harvard University students.
           </div>
         </li>
+
+        <li>
+          <div class="timeline-element">
+            <time datetime="2004">2005 - day <span class="day-highlight">5886</span></time>
+            <h2>The first YouTube video</h2>
+            Uploaded by cofounder Jawed Karim. It was a video of of himself at the San Diego Zoo called <a href="https://www.youtube.com/watch?v=jNQXAC9IVRw">"Me at the zoo"</a>.
+          </div>
+        </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="2006">2006 - day <span class="day-highlight">6128</span></time>
@@ -234,6 +267,23 @@
             Quite often the source of breaking news the world over.
           </div>
         </li>
+
+        <li>
+          <div class="timeline-element">
+            <time datetime="2006">2010 - day <span class="day-highlight">7692</span></time>
+            <h2>First iPad launched</h2>
+            Although not the first tablet, it's the ubiquitous term for tablet devices.
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-element">
+            <time datetime="2006">2012 - day <span class="day-highlight">8685</span></time>
+            <h2>First video with 1 billion views on YouTube</h2>
+            South Korean superstar Psy was the first to reach 1 billion views with the viral hit Gangnam Style.
+          </div>
+        </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="2016">2016 - day <span class="day-highlight">10035</span></time>
@@ -241,6 +291,7 @@
             A new social media platform for a new generation.
           </div>
         </li>
+
         <li>
           <div class="timeline-element">
             <time datetime="<?= date("Y"); ?>"><?= date("Y"); ?> - day <span class="day-highlight"><?=$web_days; ?></span></time>
@@ -256,7 +307,7 @@
         <sup id="days-old">*</sup>Assuming by Internet we mean the Internet as we know it today (<a href="http://en.wikipedia.org/wiki/History_of_the_World_Wide_Web">the World Wide Web</a>).
       </p>
       <p>
-        If you want the number of days from the time the internet technology was made it is <a href="http://news.nationalgeographic.co.uk/news/2009/08/090831-internet-40th-video-ap.html"><?=$internet_days;?></a>.
+        If you want the number of days from the time the internet technology was made it is <a href="https://en.wikipedia.org/wiki/Internet#History"><?=$internet_days;?></a>.
       </p>
       <p class="madeby">
         <a href="https://tosbourn.com/"><img class="logo" src="images/logo.png" alt="Tosbourn logo" width="48" height="48"></a>
