@@ -361,13 +361,6 @@ time {
   .dropdown--emerald::after {
     color: rgba(255,255,255,.8);
   }
-
-  @-moz-document url-prefix() {
-    .dropdown__select { padding-right: .9em }
-    .dropdown--large .dropdown__select { padding-right: 1.3em }
-    .dropdown--small .dropdown__select { padding-right: .5em }
-  }
-
 }
 
 #carbonads {
