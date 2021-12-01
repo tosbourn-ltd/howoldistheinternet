@@ -154,8 +154,9 @@ a.social:visited {
   line-height: 20px;
 }
 
-.timeline-element h2 {
+.timeline-element h3 {
   margin-bottom: 8px;
+  font-size: 24px;
 }
 
 .timeline-element::before {
@@ -422,7 +423,7 @@ time {
   line-height: 1;
 }
 
-h1 {
+h1, h2 {
   font-size: 36px;
 }
 
