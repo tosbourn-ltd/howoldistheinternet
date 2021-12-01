@@ -176,7 +176,7 @@
             <time datetime="1994">1994</time>
             <h2>The first banner ad!</h2>
             This isn't the first banner ad, but it does help the site!
-            <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYI523W&placement=howoldistheinternet" id="_carbonads_js"></script>
+            <script async src="//cdn.carbonads.com/carbon.js?serve=CKYI523W&placement=howoldistheinternet" id="_carbonads_js"></script>
           </div>
         </li>
 

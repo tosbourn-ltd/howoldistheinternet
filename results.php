@@ -68,7 +68,7 @@
     </section>
 
     <aside class="ads">
-      <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYI523W&placement=howoldistheinternet" id="_carbonads_js"></script>
+      <script async src="//cdn.carbonads.com/carbon.js?serve=CKYI523W&placement=howoldistheinternet" id="_carbonads_js"></script>
     </aside>
 
     <footer>
