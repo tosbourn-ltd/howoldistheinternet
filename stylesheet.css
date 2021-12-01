@@ -44,10 +44,6 @@ a.social:visited {
   color: #FFF;
 }
 
-a.twitter:visited {
-  color: #2D6491;
-}
-
 .socialshares {
   display: flex;
   flex-wrap: wrap;
@@ -85,7 +81,7 @@ a.twitter:visited {
 }
 
 .twitter {
-  background-color: #0488D9;
+  background-color: #0056A7;
 }
 
 .linkedin {
