@@ -1,6 +1,6 @@
 # How Old is the Internet
 
-A site to answer [How old is the internet?](https://www.howoldistheinter.net/).
+A site to answer [How old is the internet?](https://howoldistheinter.net/).
 
 ## Team
 

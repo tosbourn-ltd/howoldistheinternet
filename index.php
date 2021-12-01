@@ -39,12 +39,12 @@
 
     <?php if ($_GET['date']) { ?>
       <meta name="description" property="og:description" content="<?=$sharing_result?>">
-      <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/image.php?text=<?= $days; ?>">
-      <meta property="og:url" content="https://www.howoldistheinter.net/?date=<?= $_GET['date']; ?>" name="twitter:url">
+      <meta property="og:image" name="twitter:image" content="https://howoldistheinter.net/image.php?text=<?= $days; ?>">
+      <meta property="og:url" content="https://howoldistheinter.net/?date=<?= $_GET['date']; ?>" name="twitter:url">
     <?php } else { ?>
       <meta name="description" property="og:description" content="Find out just how many days old is the internet right now.">
-      <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/social.png">
-      <meta property="og:url" content="https://www.howoldistheinter.net" name="twitter:url">
+      <meta property="og:image" name="twitter:image" content="https://howoldistheinter.net/social.png">
+      <meta property="og:url" content="https://howoldistheinter.net" name="twitter:url">
     <?php } ?>
 
     <meta property="og:type" content="website">

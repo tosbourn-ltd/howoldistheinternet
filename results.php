@@ -41,8 +41,8 @@
     <meta property="og:type" content="website">
     <meta property="fb:app_id" content="1757071657655796">
     <meta property="locale" content="en_GB">
-    <meta property="og:url" content="https://www.howoldistheinter.net/results.php?date=<?= $birthday; ?>" name="twitter:url">
-    <meta property="og:image" name="twitter:image" content="https://www.howoldistheinter.net/image.php?text=<?= $days; ?>">
+    <meta property="og:url" content="https://howoldistheinter.net/results.php?date=<?= $birthday; ?>" name="twitter:url">
+    <meta property="og:image" name="twitter:image" content="https://howoldistheinter.net/image.php?text=<?= $days; ?>">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@tosbourn">
     <meta name="twitter:creator" content="@tosbourn">
