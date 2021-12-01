@@ -14,15 +14,15 @@
 
   if ($age_days < $web_days) {
     $result = "The internet was $younger_age_difference days old when you were born!";
-    $sharing_result = "The internet was $younger_age_difference days old when I was born!";
+    $sharing_result = "The internet was $younger_age_difference days old when I was born! Click on the link to find out just how old you were when the internet was launched.";
     $days = $younger_age_difference;
   } elseif ($age_days > $web_days) {
     $result = "The internet was launched $older_age_difference days after you were born!";
-    $sharing_result = "The internet was launched $older_age_difference days after I was born!";
+    $sharing_result = "The internet was launched $older_age_difference days after I was born! Click on the link to find out just how old you were when the internet was launched.";
     $days = $older_age_difference;
   } else {
     $result = "Wow! You're exactly the same age as the internet!";
-    $sharing_result = "Wow! I'm exactly the same age as the internet!";
+    $sharing_result = "Wow! I'm exactly the same age as the internet! Click on the link to find out just how old you were when the internet was launched.";
     $days = 0;
   }
 ?>
