@@ -270,7 +270,6 @@ time {
 
 .submit, .submit:visited {
   -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   margin: 0.75em;
   padding: 0.4em 1rem;
@@ -305,7 +304,6 @@ time {
 
 @supports (pointer-events: none) and
 ((-webkit-appearance: none) or
-(-moz-appearance: none) or
 (appearance: none)) {
 
   .dropdown {
@@ -319,7 +317,6 @@ time {
     border: 0;
     border-radius: 3px;
     -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
   }
 
