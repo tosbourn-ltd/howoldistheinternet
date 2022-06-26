@@ -8,8 +8,6 @@ Development: [Tosbourn Ltd](https://www.tosbourn.com/)
 
 Contact: [toby@tosbourn.com](mailto:toby@tosbourn.com)
 
-Twitter: [@tosbourn](https://twitter.com/tosbourn), [@kittylainey](https://twitter.com/kittylainey)
-
 ## Thanks
 
 The idea came from a talk by [Ethan Marcotte](https://twitter.com/beep). From: Boston, Massachusetts, USA
