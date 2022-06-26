@@ -158,8 +158,8 @@
         <li>
           <div class="timeline-element">
             <time datetime="1993">1993 - day <span class="day-highlight">1657</span></time>
-            <h3><a href="https://www.ibiblio.org/Dave/drfun.html">Doctor Fun</a></h3>
-            This web comic was created by David Farley and was one of the first on the world wide web.
+            <h3><a href="https://web.archive.org/web/20001109142800/https://www.ibiblio.org/Dave/drfun.html">Doctor Fun</a></h3>
+            This web comic was created by David Farley and was one of the first on the world wide web. (unfortunately the original URL now 404s)
           </div>
         </li>
 
