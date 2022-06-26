@@ -1,7 +1,6 @@
 /* TEAM */
 	Development:Toby Osbourn, Elaine Osbourn
-	Contact: toby.osbourn@gmail.com
-	Twitter: @tosbourn, @kittylainey
+	Contact: toby@tosbourn.com
 	From:Belfast, Northern Ireland, United Kingdom
 
 /* THANKS */
