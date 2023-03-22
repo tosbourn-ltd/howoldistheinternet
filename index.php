@@ -54,12 +54,6 @@
     <meta name="twitter:site" content="@tosbourn">
     <meta name="twitter:creator" content="@tosbourn">
     <link rel="canonical" href="https://howoldistheinter.net/">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Ubuntu:300&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Ubuntu:300&display=swap" media="print" onload="this.media='all'">
-    <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Ubuntu:300&display=swap">
-    </noscript>
     <script async defer data-domain="howoldistheinter.net" src="https://plausible.io/js/plausible.js"></script>
     <meta name="monetization" content="$ilp.uphold.com/FWUieqxLeakN">
   </head>
@@ -103,11 +97,12 @@
     </section>
 
     <section class="socialshares">
-      <h3>Share</h3>
       <a class="social facebook" target="_blank" rel="noopener" href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhowoldistheinter.net%2Fresults.php"><img src="images/share-facebook.svg" alt="Facebook icon" width="32" height="32"><span>Facebook</span></a>
       <a class="social twitter" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=The+internet+is+<?=$web_days;?>+days+old&amp;url=http%3A%2F%2Fhowoldistheinter.net"><img src="images/share-twitter.svg" alt="Twitter icon" width="32" height="32"><span>Twitter</span></a>
       <a class="social linkedin" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhowoldistheinter.net&amp;title=The+internet+is+<?=$web_days?>+days+old&amp;summary=The+internet+is+<?=$web_days?>+days+old&amp;source=http%3A%2F%2Fhowoldistheinter.net"><img src="images/share-linkedin.svg" alt="LinkedIn icon" width="32" height="32"><span>Linkedin</span></a>
     </section>
+
+    <script async src="//cdn.carbonads.com/carbon.js?serve=CKYI523W&placement=howoldistheinternet" id="_carbonads_js"></script>
 
     <section class="intro">
       <h2>Internet Timeline &darr;</h2>
@@ -175,8 +170,7 @@
           <div class="timeline-element">
             <time datetime="1994">1994</time>
             <h3>The first banner ad!</h3>
-            This isn't the first banner ad, but it does help the site!
-            <script async src="//cdn.carbonads.com/carbon.js?serve=CKYI523W&placement=howoldistheinternet" id="_carbonads_js"></script>
+            Our banner ad helps pay for the site ❤️
           </div>
         </li>
 

@@ -1,5 +1,5 @@
 body {
-  font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+  font-family: 'Avenir', 'Avenir Next LT Pro', 'Montserrat', 'Corbel', 'URW Gothic', 'source-sans-pro', sans-serif;
   text-align: center;
   background: #1F2D36;
   color: #fff;
@@ -45,16 +45,11 @@ a.social:visited {
 }
 
 .socialshares {
-  display: flex;
-  flex-wrap: wrap;
   margin: 0 auto 50px auto;
-  width: 500px;
-  justify-content: flex-start;
 }
 
 .socialshares > h2 {
-  width: 100%;
-  text-align: left;
+  margin: 0 auto 20px auto;
 }
 
 .social {
@@ -424,12 +419,12 @@ time {
 }
 
 h1, h2 {
+  font-family: 'Inter', 'Roboto', 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
   font-size: 36px;
 }
 
 .larger {
   font-size: 60px;
-  letter-spacing: -5px;
 }
 
 .larger a {
