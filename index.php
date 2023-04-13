@@ -96,11 +96,11 @@
       </div>
     </section>
 
-    <section class="socialshares">
+    <div class="socialshares">
       <a class="social facebook" target="_blank" rel="noopener" href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhowoldistheinter.net%2Fresults.php"><img src="images/share-facebook.svg" alt="Facebook icon" width="32" height="32"><span>Facebook</span></a>
       <a class="social twitter" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=The+internet+is+<?=$web_days;?>+days+old&amp;url=http%3A%2F%2Fhowoldistheinter.net"><img src="images/share-twitter.svg" alt="Twitter icon" width="32" height="32"><span>Twitter</span></a>
       <a class="social linkedin" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhowoldistheinter.net&amp;title=The+internet+is+<?=$web_days?>+days+old&amp;summary=The+internet+is+<?=$web_days?>+days+old&amp;source=http%3A%2F%2Fhowoldistheinter.net"><img src="images/share-linkedin.svg" alt="LinkedIn icon" width="32" height="32"><span>Linkedin</span></a>
-    </section>
+    </div>
 
     <script async src="//cdn.carbonads.com/carbon.js?serve=CKYI523W&placement=howoldistheinternet" id="_carbonads_js"></script>
 
