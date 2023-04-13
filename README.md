@@ -4,7 +4,7 @@ A site to answer [How old is the internet?](https://howoldistheinter.net/).
 
 ## Team
 
-Development: [Tosbourn Ltd](https://www.tosbourn.com/)
+Development: [Tosbourn Ltd](https://tosbourn.com/)
 
 Contact: [toby@tosbourn.com](mailto:toby@tosbourn.com)
 

@@ -290,7 +290,7 @@
           <div class="timeline-element">
             <time datetime="<?= date("Y"); ?>"><?= date("Y"); ?> - day <span class="day-highlight"><?=$web_days; ?></span></time>
             <h3>NOW</h3>
-            Something we left out? Something happened that you think we should include? <a href="https://www.tosbourn.com/contact/">Contact us!</a>
+            Something we left out? Something happened that you think we should include? <a href="https://tosbourn.com/contact/">Contact us!</a>
           </div>
         </li>
       </ul>
