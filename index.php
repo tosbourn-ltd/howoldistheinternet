@@ -55,6 +55,9 @@
     <meta name="twitter:creator" content="@tosbourn">
     <link rel="canonical" href="https://howoldistheinter.net/">
     <script async defer data-domain="howoldistheinter.net" src="https://plausible.io/js/plausible.js"></script>
+    <link rel="me" href="https://masto.ai/@tosbourn">
+    <link rel="me" href="https://tosbourn.com">
+    <link rel="me" href="mailto:toby@tosbourn.com">
   </head>
 
   <body>
