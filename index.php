@@ -55,7 +55,6 @@
     <meta name="twitter:creator" content="@tosbourn">
     <link rel="canonical" href="https://howoldistheinter.net/">
     <script async defer data-domain="howoldistheinter.net" src="https://plausible.io/js/plausible.js"></script>
-    <meta name="monetization" content="$ilp.uphold.com/FWUieqxLeakN">
   </head>
 
   <body>
@@ -102,7 +101,7 @@
       <a class="social linkedin" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhowoldistheinter.net&amp;title=The+internet+is+<?=$web_days?>+days+old&amp;summary=The+internet+is+<?=$web_days?>+days+old&amp;source=http%3A%2F%2Fhowoldistheinter.net"><img src="images/share-linkedin.svg" alt="LinkedIn icon" width="32" height="32"><span>Linkedin</span></a>
     </div>
 
-    <script async src="//cdn.carbonads.com/carbon.js?serve=CKYI523W&placement=howoldistheinternet" id="_carbonads_js"></script>
+    <script async src="https://cdn.carbonads.com/carbon.js?serve=CKYI523W&placement=howoldistheinternet" id="_carbonads_js"></script>
 
     <section class="intro">
       <h2>Internet Timeline &darr;</h2>
