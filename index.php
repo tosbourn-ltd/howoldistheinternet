@@ -288,6 +288,14 @@
 
         <li>
           <div class="timeline-element">
+            <time datetime="2022">2022 - day <span class="day-highlight">12308</span></time>
+            <h3>Chat GPT launched</h3>
+            ChatGPT is a large language model trained by OpenAI, capable of generating human-like responses to natural language inputs (we asked ChatGPT for this description!).
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-element">
             <time datetime="<?= date("Y"); ?>"><?= date("Y"); ?> - day <span class="day-highlight"><?=$web_days; ?></span></time>
             <h3>NOW</h3>
             Something we left out? Something happened that you think we should include? <a href="https://www.tosbourn.com/contact/">Contact us!</a>
