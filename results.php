@@ -62,11 +62,11 @@
     
     <div class="socialshares">
       <h2>Share</h2>
-      <a class="social facebook" target="_blank" rel="noopener" href="http://www.facebook.com/sharer/sharer.php?u=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>"><img src="images/share-facebook.svg" alt="Facebook icon" width="32" height="32"><span>Facebook</span></a>
+      <a class="social facebook" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>"><img src="images/share-facebook.svg" alt="Facebook icon" width="32" height="32"><span>Facebook</span></a>
 
       <a class="social twitter" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=<?= $sharing_result; ?>&amp;url=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>"><img src="images/share-twitter.svg" alt="Twitter icon" width="32" height="32"><span>Twitter</span></a>
 
-      <a class="social linkedin" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>&amp;title=<?=$sharing_result?>&amp;summary=<?=$sharing_result?>&amp;source=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>"><img src="images/share-linkedin.svg" alt="LinkedIn icon" width="32" height="32"><span>Linkedin</span></a>
+      <a class="social linkedin" target="_blank" rel="noopener" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>&amp;title=<?=$sharing_result?>&amp;summary=<?=$sharing_result?>&amp;source=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>"><img src="images/share-linkedin.svg" alt="LinkedIn icon" width="32" height="32"><span>Linkedin</span></a>
 </div>
 
     <aside class="ads">
