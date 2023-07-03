@@ -36,16 +36,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta property="og:site_name" content="How old is the internet?">
-    <meta property="og:title" name="twitter:title" content="How old is the internet?">
+    <meta property="og:title" content="How old is the internet?">
     <meta name="description" property="og:description" content="<?=$sharing_result?>">
     <meta property="og:type" content="website">
     <meta property="fb:app_id" content="1757071657655796">
     <meta property="locale" content="en_GB">
-    <meta property="og:url" content="https://howoldistheinter.net/results.php?date=<?= $birthday; ?>" name="twitter:url">
-    <meta property="og:image" name="twitter:image" content="https://howoldistheinter.net/image.php?text=<?= $days; ?>">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@tosbourn">
-    <meta name="twitter:creator" content="@tosbourn">
+    <meta property="og:url" content="https://howoldistheinter.net/results.php?date=<?= $birthday; ?>">
+    <meta property="og:image" content="https://howoldistheinter.net/image.php?text=<?= $days; ?>">
     <link rel="canonical" href="https://howoldistheinter.net/">
     <script async defer data-domain="howoldistheinter.net" src="https://plausible.io/js/plausible.js"></script>
     <link rel="me" href="https://masto.ai/@tosbourn">
@@ -70,7 +67,7 @@
 </div>
 
     <aside class="ads">
-      <script async src="https://cdn.carbonads.com/carbon.js?serve=CKYI523W&placement=howoldistheinternet" id="_carbonads_js"></script>
+      <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=tosbourn-21&language=en_GB&marketplace=amazon&region=GB&placement=0192862073&asins=0192862073&linkId=d10ff6aa855c0d25ef86e47ce3f61299&show_border=true&link_opens_in_new_window=true"></iframe>
     </aside>
 
     <footer>
