@@ -40,7 +40,7 @@ a.social:visited {
 }
 
 .socialshares {
-  margin: 0 auto 50px auto;
+  margin: 0 auto 25px auto;
 }
 
 .socialshares > h2 {
@@ -53,7 +53,8 @@ a.social:visited {
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
-  margin-right: 8px;
+  margin: 0 8px 8px 0;
+  display: inline-block;
 }
 
 .social:hover {
