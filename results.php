@@ -39,7 +39,6 @@
     <meta property="og:title" content="How old is the internet?">
     <meta name="description" property="og:description" content="<?=$sharing_result?>">
     <meta property="og:type" content="website">
-    <meta property="fb:app_id" content="1757071657655796">
     <meta property="locale" content="en_GB">
     <meta property="og:url" content="https://howoldistheinter.net/results.php?date=<?= $birthday; ?>">
     <meta property="og:image" content="https://howoldistheinter.net/image.php?text=<?= $days; ?>">

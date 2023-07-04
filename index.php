@@ -47,7 +47,6 @@
     <?php } ?>
 
     <meta property="og:type" content="website">
-    <meta property="fb:app_id" content="1757071657655796">
     <meta property="locale" content="en_GB">
     <link rel="canonical" href="https://howoldistheinter.net/">
     <script async defer data-domain="howoldistheinter.net" src="https://plausible.io/js/plausible.js"></script>
