@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <?php
   date_default_timezone_set("Europe/London");
   $now                 = time();
   $start_date_web      = strtotime("1989-03-12");
   $start_date_internet = strtotime("1969-10-29");
-  $birthday            = $_GET['date'];
+  $birthday            = $_GET['date'] ?? null;
   $web_days            = floor(($now - $start_date_web)/(60*60*24));
   $age_days            = floor(($now - $birthday)/(60*60*24));
   $internet_days       = floor(($now - $start_date_internet)/(60*60*24));
@@ -23,8 +24,6 @@
     $days = 0;
   }
 ?>
-
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -35,31 +34,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta property="og:site_name" content="How old is the internet?">
-    <meta property="og:title" name="twitter:title" content="How old is the internet?">
+    <meta property="og:title" content="How old is the internet?">
 
-    <?php if ($_GET['date']) { ?>
+    <?php if (isset($_GET['date'])) { ?>
       <meta name="description" property="og:description" content="<?=$sharing_result?>">
-      <meta property="og:image" name="twitter:image" content="https://howoldistheinter.net/image.php?text=<?= $days; ?>">
-      <meta property="og:url" content="https://howoldistheinter.net/?date=<?= $_GET['date']; ?>" name="twitter:url">
+      <meta property="og:image" content="https://howoldistheinter.net/image.php?text=<?= $days; ?>">
+      <meta property="og:url" content="https://howoldistheinter.net/?date=<?= $_GET['date']; ?>">
     <?php } else { ?>
       <meta name="description" property="og:description" content="Use How Old is the Internet to find out just how many days old is the internet right now. You can also find out how old you were when the internet began!">
-      <meta property="og:image" name="twitter:image" content="https://howoldistheinter.net/social.png">
-      <meta property="og:url" content="https://howoldistheinter.net" name="twitter:url">
+      <meta property="og:image" content="https://howoldistheinter.net/social.png">
+      <meta property="og:url" content="https://howoldistheinter.net">
     <?php } ?>
 
     <meta property="og:type" content="website">
-    <meta property="fb:app_id" content="1757071657655796">
     <meta property="locale" content="en_GB">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@tosbourn">
-    <meta name="twitter:creator" content="@tosbourn">
     <link rel="canonical" href="https://howoldistheinter.net/">
     <script async defer data-domain="howoldistheinter.net" src="https://plausible.io/js/plausible.js"></script>
     <link rel="me" href="https://masto.ai/@tosbourn">
     <link rel="me" href="https://tosbourn.com">
     <link rel="me" href="mailto:toby@tosbourn.com">
   </head>
-
   <body>
     <h1>
       The Internet is <span class="larger"><?=$web_days; ?><sup><a href="#days-old">*</a></sup></span> days old
@@ -104,7 +98,11 @@
       <a class="social linkedin" target="_blank" rel="noopener" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhowoldistheinter.net&amp;title=The+internet+is+<?=$web_days?>+days+old&amp;summary=The+internet+is+<?=$web_days?>+days+old&amp;source=http%3A%2F%2Fhowoldistheinter.net"><img src="images/share-linkedin.svg" alt="LinkedIn icon" width="32" height="32"><span>Linkedin</span></a>
     </div>
 
-    <script async src="https://cdn.carbonads.com/carbon.js?serve=CKYI523W&placement=howoldistheinternet" id="_carbonads_js"></script>
+    <aside class="ads">
+      <div>
+        <a target="_blank" rel="sponsored" href="https://amzn.to/3prhRWx">Learn more about computing and the internet! 🇺🇸</a> or <a target="_blank" rel="sponsored" href="https://amzn.to/3JITOcr">🇬🇧</a>
+      </div>
+    </aside>
 
     <section class="intro">
       <h2>Internet Timeline &darr;</h2>

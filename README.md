@@ -10,7 +10,7 @@ Contact: [toby@tosbourn.com](mailto:toby@tosbourn.com)
 
 ## Thanks
 
-The idea came from a talk by [Ethan Marcotte](https://twitter.com/beep). From: Boston, Massachusetts, USA
+The idea came from a talk by [Ethan Marcotte](https://ethanmarcotte.com/). From: Boston, Massachusetts, USA
 
 The Favicon has been made by [Michael Huang](https://github.com/fernozzle).
 

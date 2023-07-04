@@ -6,7 +6,6 @@
 /* THANKS */
 
 	The idea came from a talk by: Ethan Marcotte
-	Twitter: @beep
 	From: Boston, Massachusetts, USA
 
 	The Favicon has been made by Michael Huang
