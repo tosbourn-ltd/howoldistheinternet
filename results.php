@@ -67,7 +67,9 @@
 </div>
 
     <aside class="ads">
-      <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=tosbourn-21&language=en_GB&marketplace=amazon&region=GB&placement=0192862073&asins=0192862073&linkId=d10ff6aa855c0d25ef86e47ce3f61299&show_border=true&link_opens_in_new_window=true"></iframe>
+      <div>
+        <a target="_blank" rel="sponsored" href="https://amzn.to/3prhRWx">Learn more about computing and the internet! 🇺🇸</a> or <a target="_blank" rel="sponsored" href="https://amzn.to/3JITOcr">🇬🇧</a>
+      </div>
     </aside>
 
     <footer>
