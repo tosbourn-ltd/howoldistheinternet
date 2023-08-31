@@ -98,11 +98,7 @@
       <a class="social linkedin" target="_blank" rel="noopener" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhowoldistheinter.net&amp;title=The+internet+is+<?=$web_days?>+days+old&amp;summary=The+internet+is+<?=$web_days?>+days+old&amp;source=http%3A%2F%2Fhowoldistheinter.net"><img src="images/share-linkedin.svg" alt="LinkedIn icon" width="32" height="32"><span>Linkedin</span></a>
     </div>
 
-    <aside class="ads">
-      <div>
-        <a target="_blank" rel="sponsored" href="https://amzn.to/3prhRWx">Learn more about computing and the internet! 🇺🇸</a> or <a target="_blank" rel="sponsored" href="https://amzn.to/3JITOcr">🇬🇧</a>
-      </div>
-    </aside>
+    <script async src="https://cdn.carbonads.com/carbon.js?serve=CKYI523W&placement=howoldistheinternet" id="_carbonads_js"></script>
 
     <section class="intro">
       <h2>Internet Timeline &darr;</h2>

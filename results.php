@@ -63,13 +63,9 @@
       <a class="social twitter" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=<?= $sharing_result; ?>&amp;url=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>"><img src="images/share-twitter.svg" alt="Twitter icon" width="32" height="32"><span>Twitter</span></a>
 
       <a class="social linkedin" target="_blank" rel="noopener" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>&amp;title=<?=$sharing_result?>&amp;summary=<?=$sharing_result?>&amp;source=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>"><img src="images/share-linkedin.svg" alt="LinkedIn icon" width="32" height="32"><span>Linkedin</span></a>
-</div>
+    </div>
 
-    <aside class="ads">
-      <div>
-        <a target="_blank" rel="sponsored" href="https://amzn.to/3prhRWx">Learn more about computing and the internet! 🇺🇸</a> or <a target="_blank" rel="sponsored" href="https://amzn.to/3JITOcr">🇬🇧</a>
-      </div>
-    </aside>
+    <script async src="https://cdn.carbonads.com/carbon.js?serve=CKYI523W&placement=howoldistheinternet" id="_carbonads_js"></script>
 
     <footer>
       <p class="madeby">
