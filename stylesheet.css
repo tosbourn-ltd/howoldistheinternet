@@ -438,3 +438,13 @@ h1, h2 {
   font-size: 9px;
   line-height: 1;
 }
+
+.ebay-ad {
+  display: block;
+  padding-top: 2em;
+}
+
+.ebay-ad-timeline-element {
+  padding-left: 2.25em;
+  padding-top: 0.75em;
+}

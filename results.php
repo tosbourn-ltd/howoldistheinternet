@@ -47,6 +47,7 @@
     <link rel="me" href="https://masto.ai/@tosbourn">
     <link rel="me" href="https://tosbourn.com">
     <link rel="me" href="mailto:toby@tosbourn.com">
+    <script async src="https://epnt.ebay.com/static/epn-smart-tools.js"></script>
   </head>
   <body>
     
@@ -55,7 +56,11 @@
     <div class="intro date-box">
       <a href="/" class="submit">Try another date!</a>
     </div>
-    
+
+    <div class="ebay-ad">
+      <ins class="epn-placement" data-config-id="ffe17ccbb34b8e64b8f903ed"></ins>
+    </div>
+
     <div class="socialshares">
       <h2>Share</h2>
       <a class="social facebook" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=<?= urlencode("https://howoldistheinter.net/?date={$birthday}")?>"><img src="images/share-facebook.svg" alt="Facebook icon" width="32" height="32"><span>Facebook</span></a>
