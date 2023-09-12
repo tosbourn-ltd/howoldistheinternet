@@ -53,6 +53,7 @@
     <link rel="me" href="https://masto.ai/@tosbourn">
     <link rel="me" href="https://tosbourn.com">
     <link rel="me" href="mailto:toby@tosbourn.com">
+    <script async src="https://epnt.ebay.com/static/epn-smart-tools.js"></script>
   </head>
   <body>
     <h1>
@@ -164,17 +165,20 @@
 
         <li>
           <div class="timeline-element">
-            <time datetime="1994">1994</time>
-            <h3>The first banner ad!</h3>
-            Our banner ad helps pay for the site ❤️
+            <time datetime="1995">1995 - day <span class="day-highlight">2181</span></time>
+            <h3>Yahoo incorporated</h3>
+            Believe it or not Yahoo were one of the pioneers of the early internet.
           </div>
         </li>
 
         <li>
           <div class="timeline-element">
-            <time datetime="1995">1995 - day <span class="day-highlight">2181</span></time>
-            <h3>Yahoo incorporated</h3>
-            Believe it or not Yahoo were one of the pioneers of the early internet.
+            <time datetime="1995">1995 - day <span class="day-highlight">2366</span></time>
+            <h3>eBay founded</h3>
+            One of the notable success stories of the dot-com bubble. Our ads help us run the site! ❤️<br>
+            <a target="_blank" href="https://www.ebay.com/?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339010372&customid=&toolid=10001&mkevt=1">
+              <img src="/images/ebay-logo.png" alt="eBay advertisement" class="ebay-ad-timeline-element">
+            </a>
           </div>
         </li>
 
@@ -299,6 +303,10 @@
         </li>
       </ul>
     </section>
+
+    <div class="ebay-ad">
+      <ins class="epn-placement" data-config-id="ffe17ccbb34b8e64b8f903ed"></ins>
+    </div>
 
     <footer>
       <p>
