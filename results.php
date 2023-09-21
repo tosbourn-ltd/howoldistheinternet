@@ -43,7 +43,7 @@
     <meta property="og:url" content="https://howoldistheinter.net/results.php?date=<?= $birthday; ?>">
     <meta property="og:image" content="https://howoldistheinter.net/image.php?text=<?= $days; ?>">
     <link rel="canonical" href="https://howoldistheinter.net/">
-    <script async defer data-domain="howoldistheinter.net" src="https://plausible.io/js/plausible.js"></script>
+    <script async defer data-domain="howoldistheinter.net" src="https://plausible.io/js/script.outbound-links.js"></script>
     <link rel="me" href="https://masto.ai/@tosbourn">
     <link rel="me" href="https://tosbourn.com">
     <link rel="me" href="mailto:toby@tosbourn.com">
